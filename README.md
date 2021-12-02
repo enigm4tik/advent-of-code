@@ -1,2 +1,3 @@
-# advent-of-code
-Advent of Code
+# Advent of Code 
+
+Collection of (solved) puzzles from Advent of Code
