@@ -1,14 +1,11 @@
 # Advent of Code - 2021
 ## Day 3 - Part 1
 
-from typing import Tuple
-
-
 with open('day03_input', 'r') as file:
     lines = file.readlines()
     lines = [line.rstrip() for line in lines]
 
-def find_most_and_least_common_bit(input_string: str, evaluate_equal: bool=False, get_gamma: bool=False):
+def find_most_and_least_common_bit(input_string, evaluate_equal=False, get_gamma=False):
     string_len = len(input_string)
     zeroes = sum('0' in s for s in input_string)
     ones = string_len - zeroes
