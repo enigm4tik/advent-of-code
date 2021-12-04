@@ -89,7 +89,7 @@ for bingo_number in bingo_numbers:
     if bingo: 
         break
 
-## Day 4 - Part 
+## Day 4 - Part 2
 
 def remove_winning_field(bingo_fields, winning_bingo_field):
     bingo_fields.remove(winning_bingo_field)
