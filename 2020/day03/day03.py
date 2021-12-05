@@ -1,11 +1,11 @@
 # Advent of Code - 2020
 ## Day 3 - Part 1
 
+import numpy as np 
+
 with open('day03_input', 'r') as file:
     lines = file.readlines()
     lines = [line.rstrip() for line in lines]
-
-import numpy as np 
 
 array = np.empty([len(lines), len(lines[0])], str)
 
