@@ -1,5 +1,5 @@
 # Advent of Code - 2020
-## Day 1 - Part 1
+## Day 2 - Part 1
 
 with open('day02_input', 'r') as file:
     lines = file.readlines()
@@ -24,6 +24,8 @@ for line in lines:
         valid_passwords += 1
 
 print(f"Part 1 - Result: {valid_passwords}")
+
+## Day 2 - Part 2
 
 valid_passwords = 0
 
