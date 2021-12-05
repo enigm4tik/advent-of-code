@@ -4,8 +4,8 @@
 [Day 02](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day02): Dive!  
 [Day 03](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day03): Binary Diagnostic  
 [Day 04](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day04): Giant Squid   
-<!-- [Day 05](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day05): Binary Boarding  
-[Day 06](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day06): Custom Customs  
+[Day 05](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day05): Hydrothermal Venture  
+<!-- [Day 06](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day06): Custom Customs  
 [Day 07](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day07): Handy Haversacks  
 [Day 08](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day08): Handheld Halting  
 [Day 09](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day09): Encoding Error    
