@@ -41,14 +41,11 @@ def fill_diagonal(beginning, end):
         if x1 > x2: 
             if y1 > y2: 
                 array[x1 - i, y1 - i] += 1
-                pass
             else: 
                 array[x1 - i, y1 + i] += 1
-                pass
         else: 
             if y1 > y2: 
                 array[x1 + i, y1 - i] += 1
-                pass
             else: 
                 array[x1 + i, y1 + i] += 1
         i += 1
