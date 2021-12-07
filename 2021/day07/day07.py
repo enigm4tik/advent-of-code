@@ -28,9 +28,9 @@ print(f"Part 1 - Result: {current_smallest}")
 def move_list_with_cost(given_list, position):
     new_list = []
     for i in given_list:
-        steps = abs(i-position)+1
+        steps = abs(i-position)
         # print(f"i: {i}, position: {position}, steps: {steps}")
-        cost_of_steps = calculate_sum_of_steps(steps-1)
+        cost_of_steps = calculate_sum_of_steps(steps)
         new_list.append(cost_of_steps)
     return(sum(new_list))
 
