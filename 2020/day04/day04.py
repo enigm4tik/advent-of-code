@@ -15,7 +15,6 @@ class Passport(object):
     iyr = None
     cid = None 
     hgt = None 
-    parser = False
     has_all_required_fields = False
     all_values_meet_criteria = True
 
