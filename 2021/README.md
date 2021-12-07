@@ -6,8 +6,8 @@
 [Day 04](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day04): Giant Squid   
 [Day 05](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day05): Hydrothermal Venture  
 [Day 06](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day06): Lanternfish  
-<!-- [Day 07](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day07): Handy Haversacks  
-[Day 08](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day08): Handheld Halting  
+[Day 07](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day07): The Treachery of Whales  
+<!--[Day 08](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day08): Handheld Halting  
 [Day 09](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day09): Encoding Error    
 [Day 10](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day10): Adapter Array  
 [Day 11](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day11): Seating System  
