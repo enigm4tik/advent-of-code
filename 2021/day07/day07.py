@@ -34,6 +34,9 @@ def move_list_with_cost(given_list, position):
         new_list.append(cost_of_steps)
     return(sum(new_list))
 
+def calculate_sum_of_steps(steps):
+    return int((steps*(steps+1))/2)
+
 current_smallest = sum(mylist)*len(mylist)
 i_with_smallest = 0
 for i in range(len(mylist)):
