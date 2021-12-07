@@ -47,4 +47,4 @@ product = 1
 for item in list_of_slope_results:
     product = product * item 
 
-print(f"Part 1 - Result: {product}")
+print(f"Part 2 - Result: {product}")
