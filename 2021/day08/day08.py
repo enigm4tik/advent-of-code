@@ -68,6 +68,45 @@ def determine_e(abcdefg, a, b, c, d, f, g):
     e = abcdefg - a - b - c - d - f - g
     return e
 
+def get_key_from_letters(dictionary, val):
+    for key, value in dictionary.items():
+        if val == value:
+            return key
+        
+
+def determine_code_through_letters(result, a, b, c, d, e, f, g):
+    zero = a.union(b).union(c).union(e).union(f).union(g)
+    two = a.union(c).union(d).union(e).union(g)
+    three = a.union(c).union(d).union(f).union(g)
+    five = a.union(b).union(d).union(f).union(g)
+    six = a.union(b).union(d).union(e).union(f).union(g)
+    nine = a.union(b).union(c).union(d).union(f).union(g)
+
+    value_dictionary = {
+        '0': zero,
+        '2': two,
+        '3': three,
+        '5': five,
+        '6': six,
+        '9': nine
+    }
+
+    digit_string = ''
+    for digit in result:
+        digit = set(digit)
+        key = get_key_from_letters(value_dictionary, digit)
+        if key:
+            digit_string += key
+        if len(digit) == 2:
+            digit_string += '1'
+        if len(digit) == 3:
+            digit_string += '7'
+        if len(digit) == 4:
+            digit_string += '4'
+        if len(digit) == 7:
+            digit_string += '8'
+    return int(digit_string)
+    
 def determine_code(signal, result):
     signal = signal.split(' ')
     result = result.split(' ')
@@ -92,37 +131,7 @@ def determine_code(signal, result):
     b = determine_b(bd, d)
     e = determine_e(abcdefg, a, b, c, d, f, g)
 
-    zero = a.union(b).union(c).union(e).union(f).union(g)
-    two = a.union(c).union(d).union(e).union(g)
-    three = a.union(c).union(d).union(f).union(g)
-    five = a.union(b).union(d).union(f).union(g)
-    six = a.union(b).union(d).union(e).union(f).union(g)
-    nine = a.union(b).union(c).union(d).union(f).union(g)
-
-    digit_string = ''
-    for digit in result:
-        digit = set(digit)
-        if digit == zero:
-            digit_string += '0'
-        if digit == two:
-            digit_string += '2'
-        if digit == three:
-            digit_string += '3'
-        if digit == five:
-            digit_string += '5'
-        if digit == six:
-            digit_string += '6'
-        if digit == nine:
-            digit_string += '9'
-        if len(digit) == 2:
-            digit_string += '1'
-        if len(digit) == 3:
-            digit_string += '7'
-        if len(digit) == 4:
-            digit_string += '4'
-        if len(digit) == 7:
-            digit_string += '8'
-    return int(digit_string)
+    return determine_code_through_letters(result, a, b, c, d, e, f, g)
 
 code_results = []
 for line in lines: 
