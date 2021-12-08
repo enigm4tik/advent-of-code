@@ -3,7 +3,7 @@
 
 import numpy as np
 
-with open('day04_input', 'r') as file:
+with open('puzzle_input', 'r') as file:
     lines = file.readlines()
     lines = [line.rstrip() for line in lines]
 
