@@ -1,7 +1,7 @@
 # Advent of Code - 2020
 ## Day 2 - Part 1
 
-with open('day02_input', 'r') as file:
+with open('puzzle_input', 'r') as file:
     lines = file.readlines()
     lines = [line.rstrip() for line in lines]
 
