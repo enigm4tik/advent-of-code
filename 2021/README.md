@@ -8,8 +8,8 @@
 [Day 06](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day06/day06.py): Lanternfish  
 [Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2021/day07/day07.py): The Treachery of Whales  
 [Day 08](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day08/day08.py): Seven Segment Search  
-<!--[Day 09](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day09/day09.py): Encoding Error    
-[Day 10](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day10/day10.py): Adapter Array  
+[Day 09](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day09/day09.py): Smoke Basin    
+<!--[Day 10](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day10/day10.py): Smoke Basin  
 [Day 11](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day11/day11.py): Seating System  
 [Day 12](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day12/day12.py): Rain Risk  
 [Day 13](https://github.com/enigm4tik/advent-of-code/tree/main/2021/day13/day13.py): Shuttle Search  
