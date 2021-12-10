@@ -41,3 +41,18 @@
         <th></th>
     </tr>
 </table>
+
+## Days & Notes
+
+Day | Name | Notes | Problems
+:--- | :-- | :---  | :----
+Day 01 | Sonar Sweep | Floor Depth | None
+Day 02| Dive!| Navigate Submarine | None 
+Day 03| Binary Diagnostic| &gamma;, &epsilon;, O<sub>2</sub>, CO<sub>2</sub> | None
+Day 04| Giant Squid| Bingo! | Using numpy for the first time 
+Day 05| Hydrothermal Venture| Matrix with Diagonals | + instead of -
+Day 06| Lanternfish| 80 ... 256 | MemoryError, Accumulate Fish!
+Day 07| The Treachery of Whales| Crabs only go sideways | Didn't test if my result was correct!
+Day 08| Seven Segment Search| Draw Digits on paper | None
+Day 09| Smoke Basin| Flow into local min | Mixed up digits in the result and wasted 3 hours
+Day 10| Syntax Scoring| [({<>})] | None
