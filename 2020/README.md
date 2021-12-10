@@ -41,3 +41,15 @@
         <th></th>
     </tr>
 </table>
+
+## Days & Notes
+
+Day | Name | Info | Notes
+:--- | :-- | :---  | :----
+Day 01 | Report Repair | Report == 2020 | None
+Day 02| Password Philosophy | Valid Passwords | None 
+Day 03| Toboggan Trajectory | Slide down a Slope | Numpy
+Day 04| Passport Processing | Valid Passports | Abandoning lists, use Passport class
+Day 05| Binary Boarding | Board a Plane: BFLR | Calculate binary to decimal and vice versa
+Day 06| Custom Customs | Common Questions | Very convoluted but tired
+Day 07| Handy Haversacks | Bags of bags | Aaaaaaaaaaaaaaah
