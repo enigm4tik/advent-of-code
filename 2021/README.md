@@ -31,11 +31,11 @@
     <tr>
         <td></td>
         <td></td>
-        <td>Floor Depth</td>
-        <td>Navigate Submarine</td>
-        <td>&gamma;, &epsilon;, O<sub>2</sub>, CO<sub>2</sub></td>
-        <td>Bingo!</td>
-        <td>Matrix with Diagonals</td>
+        <td><i>Floor Depth</i></td>
+        <td><i>Navigate Submarine</i></td>
+        <td><i>&gamma;, &epsilon;, O<sub>2</sub>, CO<sub>2</sub></i></td>
+        <td><i>Bingo!</i></td>
+        <td><i>Matrix with Diagonals</i></td>
     </tr>
     <tr>
         <td></td>
@@ -74,11 +74,11 @@
         <td>AoC | Solved</td>
     </tr>
     <tr>
-        <td>80 <<<< 256</td>
-        <td>Crabs only go sideways</td>
-        <td>Draw Digits</td>
-        <td>Flow into local min</td>
-        <td>[({<>})]</td>
+        <td><i>80 <<<< 256</i></td>
+        <td><i>Crabs only go sideways</i></td>
+        <td><i>Draw Digits</i></td>
+        <td><i>Flow into local min</i></td>
+        <td><i>[({<>})]</i></td>
         <td></td>
         <td></td>
     </tr>
