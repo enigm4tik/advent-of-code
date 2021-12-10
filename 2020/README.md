@@ -46,10 +46,10 @@
 
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
-Day 01 | Report Repair | Report == 2020 | None
-Day 02| Password Philosophy | Valid Passwords | None 
-Day 03| Toboggan Trajectory | Slide down a Slope | Numpy
-Day 04| Passport Processing | Valid Passports | Abandoning lists, use Passport class
-Day 05| Binary Boarding | Board a Plane: BFLR | Calculate binary to decimal and vice versa
-Day 06| Custom Customs | Common Questions | Very convoluted but tired
-Day 07| Handy Haversacks | Bags of bags | Aaaaaaaaaaaaaaah
+[Day 01](https://adventofcode.com/2020/day/1)  | Report Repair | Report == 2020 | None
+[Day 02](https://adventofcode.com/2020/day/2) | Password Philosophy | Valid Passwords | None 
+[Day 03](https://adventofcode.com/2020/day/3) | Toboggan Trajectory | Slide down a Slope | Numpy
+[Day 04](https://adventofcode.com/2020/day/4) | Passport Processing | Valid Passports | Abandoning lists, use Passport class
+[Day 05](https://adventofcode.com/2020/day/5) | Binary Boarding | Board a Plane: BFLR | Calculate binary to decimal and vice versa
+[Day 06](https://adventofcode.com/2020/day/6) | Custom Customs | Common Questions | Very convoluted but tired
+[Day 07](https://adventofcode.com/2020/day/7) | Handy Haversacks | Bags of bags | Aaaaaaaaaaaaaaah
