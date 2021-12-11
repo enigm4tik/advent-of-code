@@ -19,10 +19,10 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day06/day06.py">06</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day06/day06.py">07</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day07/day07.py">08</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day08/day08.py">09</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day09/day09.py">10</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day07/day07.py">07</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day08/day08.py">08</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day09/day09.py">09</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day10/day10.py">10</a></th>
         <th>11</th>
         <th>12</th>
     </tr>
