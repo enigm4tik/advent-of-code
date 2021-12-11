@@ -56,3 +56,4 @@ Day | Name | Info | Notes
 [Day 08](https://adventofcode.com/2021/day/8) | Seven Segment Search| Draw Digits on paper | Use sets and math to determine the values
 [Day 09](https://adventofcode.com/2021/day/9) | Smoke Basin| Flow into local min | Mixed up digits in the result and wasted 3 hours
 [Day 10](https://adventofcode.com/2021/day/10) | Syntax Scoring| [({<>})] | Very fun
+[Day 11](https://adventofcode.com/2021/day/11) | Dumbo Octopus | - | -
