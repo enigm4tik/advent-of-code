@@ -19,7 +19,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day08/day08.py">08</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day09/day09.py">09</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day10/day10.py">10</a></th>
-        <th>11</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day11/day11.py">11</a></th>
         <th>12</th>
     </tr>
     <tr>
@@ -56,4 +56,4 @@ Day | Name | Info | Notes
 [Day 08](https://adventofcode.com/2021/day/8) | Seven Segment Search| Draw Digits on paper | Use sets and math to determine the values
 [Day 09](https://adventofcode.com/2021/day/9) | Smoke Basin| Flow into local min | Mixed up digits in the result and wasted 3 hours
 [Day 10](https://adventofcode.com/2021/day/10) | Syntax Scoring| [({<>})] | Very fun
-[Day 11](https://adventofcode.com/2021/day/11) | Dumbo Octopus | - | -
+[Day 11](https://adventofcode.com/2021/day/11) | Dumbo Octopus | Game of Life | 5 hours for part 1, 7 min for part2 :D
