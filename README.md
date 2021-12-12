@@ -23,7 +23,7 @@ Collection of (solved) puzzles from Advent of Code
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day08/day08.py">08</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day09/day09.py">09</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day10/day10.py">10</a></th>
-        <th>11</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day11/day11.py">11</a></th>
         <th>12</th>
     </tr>
     <tr>
