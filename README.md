@@ -27,8 +27,8 @@ Collection of (solved) puzzles from Advent of Code
         <th>12</th>
     </tr>
     <tr>
-        <th>13</th>
-        <th>14</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day13/day13.py">13</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day14/day14.py">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
