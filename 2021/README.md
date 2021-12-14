@@ -23,8 +23,8 @@
         <th>12</th>
     </tr>
     <tr>
-        <th>13</th>
-        <th>14</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day13/day13.py">13</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day14/day14.py">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
@@ -42,6 +42,7 @@
     </tr>
 </table>
 
+
 ## Days & Notes
 
 Day | Name | Info | Notes
@@ -57,3 +58,6 @@ Day | Name | Info | Notes
 [Day 09](https://adventofcode.com/2021/day/9) | Smoke Basin| Flow into local min | Mixed up digits in the result and wasted 3 hours
 [Day 10](https://adventofcode.com/2021/day/10) | Syntax Scoring| [({<>})] | Very fun
 [Day 11](https://adventofcode.com/2021/day/11) | Dumbo Octopus | Game of Life | 5 hours for part 1, 7 min for part2 :D
+[Day 12](https://adventofcode.com/2021/day/12) | Passage Pathing | Graphs. My Enemy. | Who knew traversing a graph would be that difficult?
+[Day 13](https://adventofcode.com/2021/day/13) | Transparent Origami | Lucky. No sneaky folds! | The letters. Where are they?
+[Day 14](https://adventofcode.com/2021/day/14) | Extended Polymerization | Lanternfish 2: The Revenge. | Remember to change all values, when you change values :D
