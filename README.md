@@ -98,7 +98,7 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
     <tr>
         <th></th>
-        <th>01</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day010/day01.py">01</a></th>
         <th>02</th>
         <th>03</th>
         <th>04</th>
