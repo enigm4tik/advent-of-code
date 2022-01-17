@@ -46,4 +46,4 @@
 
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
-[Day 01](https://adventofcode.com/2015/day/1)  | Not Quite Lisp | Up and down | Nonw
+[Day 01](https://adventofcode.com/2015/day/1)  | Not Quite Lisp | Up and down | None
