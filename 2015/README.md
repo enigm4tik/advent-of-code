@@ -7,7 +7,7 @@
     <tr>
         <th></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day01/day01.py">01</a></th>
-        <th>02</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day02/day02.py">02</a></th>
         <th>03</th>
         <th>04</th>
         <th>05</th>
@@ -47,3 +47,4 @@
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
 [Day 01](https://adventofcode.com/2015/day/1)  | Not Quite Lisp | Up and down | None
+[Day 02](https://adventofcode.com/2015/day/2)  | I Was Told There Would Be No Math | Basic Math | None
