@@ -98,8 +98,8 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
     <tr>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day010/day01.py">01</a></th>
-        <th>02</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day01/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day02/day02.py">02</a></th>
         <th>03</th>
         <th>04</th>
         <th>05</th>
