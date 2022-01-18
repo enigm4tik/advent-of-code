@@ -1,10 +1,6 @@
 # Advent of Code - 2015
 ## Day 2 - Part 1
 
-from types import SimpleNamespace
-
-from numpy.core.fromnumeric import resize
-
 with open('puzzle_input', 'r') as file:
 # with open('test_input', 'r') as file:
     lines = file.readlines()
