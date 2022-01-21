@@ -10,7 +10,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day02/day02.py">02</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day03/day03.py">03</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day04/day04.py">04</a></th>
-        <th>05</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05/day05.py">05</a></th>
         <th>06</th>
     </tr>
     <tr>
@@ -50,3 +50,4 @@ Day | Name | Info | Notes
 [Day 02](https://adventofcode.com/2015/day/2)  | I Was Told There Would Be No Math | Basic Math | None
 [Day 03](https://adventofcode.com/2015/day/3)  | Perfectly Spherical Houses in a Vacuum | Santa vs. Robo-Santa | Numpy Array :D
 [Day 04](https://adventofcode.com/2015/day/4)  | The Ideal Stocking Stuffer | Hash Strings | Pretty slow but it works!
+[Day 05](https://adventofcode.com/2015/day/4)  | Doesn't He Have Intern-Elves For This? | RegEx | Why didn't I use RegEx?
