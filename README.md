@@ -103,7 +103,7 @@ Collection of (solved) puzzles from Advent of Code
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day03/day03.py">03</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day04/day04.py">04</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day06/day06.py">06</a></th>
     </tr>
     <tr>
         <th>07</th>
