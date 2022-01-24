@@ -11,7 +11,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day03/day03.py">03</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day04/day04.py">04</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05/day05.py">05</a></th>
-        <th>06</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05/day06.py">06</a></th>
     </tr>
     <tr>
         <th>07</th>
@@ -51,3 +51,4 @@ Day | Name | Info | Notes
 [Day 03](https://adventofcode.com/2015/day/3)  | Perfectly Spherical Houses in a Vacuum | Santa vs. Robo-Santa | Numpy Array :D
 [Day 04](https://adventofcode.com/2015/day/4)  | The Ideal Stocking Stuffer | Hash Strings | Pretty slow but it works!
 [Day 05](https://adventofcode.com/2015/day/5)  | Doesn't He Have Intern-Elves For This? | RegEx | Why didn't I use RegEx?
+[Day 06](https://adventofcode.com/2015/day/6)  | Probably a Fire Hazard | XOR | Part 2 was significantly easier than part 1!
