@@ -111,7 +111,7 @@ Collection of (solved) puzzles from Advent of Code
         <th>09</th>
         <th>10</th>
         <th>11</th>
-        <th>12</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12/day12.py">12</a></th>
         <th>13</th>
     </tr>
     <tr>
