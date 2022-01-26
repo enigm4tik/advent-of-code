@@ -19,7 +19,7 @@
         <th>09</th>
         <th>10</th>
         <th>11</th>
-        <th>12</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12/day12.py">12</a></th>
         <th>13</th>
     </tr>
     <tr>
@@ -52,3 +52,4 @@ Day | Name | Info | Notes
 [Day 04](https://adventofcode.com/2015/day/4)  | The Ideal Stocking Stuffer | Hash Strings | Pretty slow but it works!
 [Day 05](https://adventofcode.com/2015/day/5)  | Doesn't He Have Intern-Elves For This? | RegEx | Why didn't I use RegEx?
 [Day 06](https://adventofcode.com/2015/day/6)  | Probably a Fire Hazard | XOR | Part 2 was significantly easier than part 1!
+[Day 12](https://adventofcode.com/2015/day/12)  | JSAbacusFramework.io | Recursion is fun! | Global variables and recursion, maybe - help!
