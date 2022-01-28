@@ -107,7 +107,7 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
     <tr>
         <th>07</th>
-        <th>08</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day08/day08.py">08</a></th>
         <th>09</th>
         <th>10</th>
         <th>11</th>
