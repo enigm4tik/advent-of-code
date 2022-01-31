@@ -16,7 +16,7 @@
     <tr>
         <th>07</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day08/day08.py">08</a></th>
-        <th>09</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day09/day09.py">09</a></th>
         <th>10</th>
         <th>11</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12/day12.py">12</a></th>
@@ -53,4 +53,5 @@ Day | Name | Info | Notes
 [Day 05](https://adventofcode.com/2015/day/5)  | Doesn't He Have Intern-Elves For This? | RegEx | Why didn't I use RegEx?
 [Day 06](https://adventofcode.com/2015/day/6)  | Probably a Fire Hazard | XOR | Part 2 was significantly easier than part 1!
 [Day 08](https://adventofcode.com/2015/day/8)  | Matchsticks | Encoding, Decoding | Escaping characters to escape the characters.
+[Day 09](https://adventofcode.com/2015/day/9)  | All in a Single Night | Dijkstra | I used Permutation instead. Slow but it works.
 [Day 12](https://adventofcode.com/2015/day/12)  | JSAbacusFramework.io | Recursion is fun! | Global variables and recursion, maybe - help!
