@@ -20,7 +20,7 @@
         <th>10</th>
         <th>11</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12/day12.py">12</a></th>
-        <th>13</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day13/day13.py">13</a></th>
     </tr>
     <tr>
         <th>14</th>
@@ -55,3 +55,4 @@ Day | Name | Info | Notes
 [Day 08](https://adventofcode.com/2015/day/8)  | Matchsticks | Encoding, Decoding | Escaping characters to escape the characters.
 [Day 09](https://adventofcode.com/2015/day/9)  | All in a Single Night | Dijkstra | I used Permutation instead. Slow but it works.
 [Day 12](https://adventofcode.com/2015/day/12)  | JSAbacusFramework.io | Recursion is fun! | Global variables and recursion, maybe - help!
+[Day 13](https://adventofcode.com/2015/day/13)  | Knights of the Dinner Table | Permutation with a twist | There is only so many unique combinations
