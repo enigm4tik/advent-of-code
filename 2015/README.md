@@ -23,7 +23,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day13/day13.py">13</a></th>
     </tr>
     <tr>
-        <th>14</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14/day14.py">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
@@ -56,3 +56,4 @@ Day | Name | Info | Notes
 [Day 09](https://adventofcode.com/2015/day/9)  | All in a Single Night | Dijkstra | I used Permutation instead. Slow but it works.
 [Day 12](https://adventofcode.com/2015/day/12)  | JSAbacusFramework.io | Recursion is fun! | Global variables and recursion, maybe - help!
 [Day 13](https://adventofcode.com/2015/day/13)  | Knights of the Dinner Table | Permutation with a twist | There is only so many unique combinations
+[Day 14](https://adventofcode.com/2015/day/14)  | Reindeer Olympics | Off by one Error ;__; | Classes are cool
