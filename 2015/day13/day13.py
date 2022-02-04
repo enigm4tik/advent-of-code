@@ -27,6 +27,7 @@ def find_unique_possibilities(all_permutations):
     unique_permutations = [x for x in list_of_permutations if x[0] == 'Alice'] # Any name would work. 
     return unique_permutations
 
+
 def calculate_happiness(seating, happiness_dictionary):
     current_happiness = 0
     for index, person in enumerate(seating): 
@@ -37,16 +38,17 @@ def calculate_happiness(seating, happiness_dictionary):
             current_happiness += happiness_dictionary[person][seating[0]]
     return current_happiness
 
-all_people = happiness.keys()
-all_possible_seating_arrangements = permutations(all_people)
-unique_seating_arrangements = find_unique_possibilities(all_possible_seating_arrangements)
 
-maximal_happiness_part_1 = 0
-for seating in unique_seating_arrangements:
-    change_in_happiness = calculate_happiness(seating, happiness)
-    if change_in_happiness > maximal_happiness_part_1:
-        maximal_happiness_part_1 = change_in_happiness
-print(f"Part 1: {maximal_happiness_part_1}")
+def calculate_maximal_happiness_score(happiness_dictionary):   
+    all_possible_seating_arrangements = permutations(happiness_dictionary.keys())
+    unique_seating_arrangements = find_unique_possibilities(all_possible_seating_arrangements)
+
+    maximal_happiness_score = 0
+    for seating in unique_seating_arrangements:
+        change_in_happiness = calculate_happiness(seating, happiness_dictionary)
+        if change_in_happiness > maximal_happiness_score:
+            maximal_happiness_score = change_in_happiness
+    return maximal_happiness_score
 
 # Part 2
 
@@ -57,14 +59,8 @@ for person in happiness_part_2:
 me = {person: 0 for person in happiness_part_2.keys()}
 happiness_part_2['Enigm4tik'] = me
 
-all_people = happiness_part_2.keys()
-all_possible_seating_arrangements = permutations(all_people)
-unique_seating_arrangements = find_unique_possibilities(all_possible_seating_arrangements)
+part1 = calculate_maximal_happiness_score(happiness)
+part2 = calculate_maximal_happiness_score(happiness_part_2)
 
-maximal_happiness_part_2 = 0
-for seating in unique_seating_arrangements:
-    change_in_happiness = calculate_happiness(seating, happiness_part_2)
-    if change_in_happiness > maximal_happiness_part_2:
-        maximal_happiness_part_2 = change_in_happiness
-
-print(f"Part 2: {maximal_happiness_part_2}")
+print(f"Part 1: {part1}")
+print(f"Part 2: {part2}")
