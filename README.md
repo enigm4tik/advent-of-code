@@ -118,7 +118,7 @@ Collection of (solved) puzzles from Advent of Code
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14/day14.py">14</a></th>
         <th>15</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16/day16.py">16</a></th>
-        <th>17</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17/day17.py">17</a></th>
         <th>18</th>
         <th>19</th>
         <th>20</th>
