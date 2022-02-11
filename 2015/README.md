@@ -26,7 +26,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14/day14.py">14</a></th>
         <th>15</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16/day16.py">16</a></th>
-        <th>17</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17/day17.py">17</a></th>
         <th>18</th>
         <th>19</th>
         <th>20</th>
@@ -58,3 +58,4 @@ Day | Name | Info | Notes
 [Day 13](https://adventofcode.com/2015/day/13)  | Knights of the Dinner Table | Permutation with a twist | There is only so many unique combinations
 [Day 14](https://adventofcode.com/2015/day/14)  | Reindeer Olympics | Off by one Error ;__; | Classes are cool
 [Day 16](https://adventofcode.com/2015/day/16)  | Aunt Sue | Updating a class using __dict__ | Easier than expected.
+[Day 17](https://adventofcode.com/2015/day/17)  | No Such Thing as Too Much | Combinations | My finest work, prepared data well
