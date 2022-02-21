@@ -2,7 +2,7 @@
 
 Collection of (solved) puzzles from Advent of Code
 
-### [Advent of Code 2021](https://github.com/enigm4tik/advent-of-code/tree/main/2021)
+### [Advent of Code 2021](https://github.com/enigm4tik/advent-of-code/tree/main/2021) (26*)
 
 <table>
     <tr>
@@ -46,7 +46,7 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
 </table>
 
-### [Advent of Code 2020](https://github.com/enigm4tik/advent-of-code/tree/main/2020)
+### [Advent of Code 2020](https://github.com/enigm4tik/advent-of-code/tree/main/2020) (13*)
 
 <table>
     <tr>
@@ -90,7 +90,7 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
 </table>
 
-### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015)
+### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015) (31*)
 
 <table>
     <tr>
