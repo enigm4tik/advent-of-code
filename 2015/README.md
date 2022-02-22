@@ -27,7 +27,7 @@
         <th>15</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16/day16.py">16</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17/day17.py">17</a></th>
-        <th>18</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18/day18.py">18</a></th>
         <th>19</th>
         <th>20</th>
     </tr>
@@ -59,3 +59,4 @@ Day | Name | Info | Notes
 [Day 14](https://adventofcode.com/2015/day/14)  | Reindeer Olympics | Off by one Error ;__; | Classes are cool
 [Day 16](https://adventofcode.com/2015/day/16)  | Aunt Sue | Updating a class using __dict__ | Easier than expected.
 [Day 17](https://adventofcode.com/2015/day/17)  | No Such Thing as Too Much | Combinations | My finest work, prepared data well
+[Day 18](https://adventofcode.com/2015/day/18)  | Like a GIF For Your Yard | Numpy Arrays | Game of life but different
