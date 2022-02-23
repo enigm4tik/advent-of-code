@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14/day14.py">14</a></th>
-        <th>15</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15/day15.py">15</a>*</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16/day16.py">16</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17/day17.py">17</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18/day18.py">18</a></th>
@@ -42,6 +42,8 @@
     </tr>
 </table>
 
+*Only Part 1 solved.
+
 ## Days & Notes
 
 Day | Name | Info | Notes
@@ -57,6 +59,7 @@ Day | Name | Info | Notes
 [Day 12](https://adventofcode.com/2015/day/12)  | JSAbacusFramework.io | Recursion is fun! | Global variables and recursion, maybe - help!
 [Day 13](https://adventofcode.com/2015/day/13)  | Knights of the Dinner Table | Permutation with a twist | There is only so many unique combinations
 [Day 14](https://adventofcode.com/2015/day/14)  | Reindeer Olympics | Off by one Error ;__; | Classes are cool
+[Day 15](https://adventofcode.com/2015/day/15)  | Science for Hungry People | Combination with replacements | Part 2 SHOULD work but it does not
 [Day 16](https://adventofcode.com/2015/day/16)  | Aunt Sue | Updating a class using __dict__ | Easier than expected.
 [Day 17](https://adventofcode.com/2015/day/17)  | No Such Thing as Too Much | Combinations | My finest work, prepared data well
 [Day 18](https://adventofcode.com/2015/day/18)  | Like a GIF For Your Yard | Numpy Arrays | Game of life but different
