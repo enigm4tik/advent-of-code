@@ -134,4 +134,4 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
 </table>
 
-* Only part 1 solved.
+*Only part 1 solved.
