@@ -62,7 +62,7 @@ Collection of (solved) puzzles from Advent of Code
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day06/day06.py">06</a></th>
     </tr>
     <tr>
-        <th>07</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day07/day07.py">07</a>*</th>
         <th>08</th>
         <th>09</th>
         <th>10</th>
