@@ -14,7 +14,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day06/day06.py">06</a></th>
     </tr>
     <tr>
-        <th>07</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day07/day07.py">07</a>*</th>
         <th>08</th>
         <th>09</th>
         <th>10</th>
@@ -42,6 +42,8 @@
     </tr>
 </table>
 
+*Only part 1 solved.
+
 ## Days & Notes
 
 Day | Name | Info | Notes
@@ -52,4 +54,4 @@ Day | Name | Info | Notes
 [Day 04](https://adventofcode.com/2020/day/4) | Passport Processing | Valid Passports | Abandoning lists, use Passport class
 [Day 05](https://adventofcode.com/2020/day/5) | Binary Boarding | Board a Plane: BFLR | Calculate binary to decimal and vice versa
 [Day 06](https://adventofcode.com/2020/day/6) | Custom Customs | Common Questions | Very convoluted but tired
-[Day 07](https://adventofcode.com/2020/day/7) | Handy Haversacks | Bags of bags | Aaaaaaaaaaaaaaah
+[Day 07](https://adventofcode.com/2020/day/7) | Handy Haversacks | Bags of bags | Finally learned how to Dijkstra
