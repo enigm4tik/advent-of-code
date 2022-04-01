@@ -85,34 +85,34 @@ while can_contain_shiny:
 
 contained_in_shiny_gold = list(set(contained_in_shiny_gold))
 
-meine_kinder_liste = {bag: 1 for bag in all_bags.keys()}
+amount_of_bags_per_bag = {bag: 1 for bag in all_bags.keys()}
 
 starting_bags = [bag for bag in all_bags if not bag in containers]
-leere_bags = [bag for bag in all_bags if not all_bags[bag].values()]
+empty_bags = [bag for bag in all_bags if not all_bags[bag].values()]
 
 
-to_check = leere_bags[:]
+to_check = empty_bags[:]
 done = []
 while to_check:
     current_bag_to_check = to_check[0]
     done.append(current_bag_to_check)
     if containers[current_bag_to_check]:
         for bag in containers[current_bag_to_check]:
-            if bag in leere_bags or bag in starting_bags or bag not in contained_in_shiny_gold:
+            if bag in empty_bags or bag in starting_bags or bag not in contained_in_shiny_gold:
                 continue
             elif bag =='shiny gold':
                 continue
             elif not bag in to_check and not bag in done:
                 to_check.append(bag)
-                amount = 1 + sum(all_bags[bag].values()) * meine_kinder_liste[current_bag_to_check]
-                meine_kinder_liste[bag] = amount
+                amount = 1 + all_bags.get(bag) * amount_of_bags_per_bag[current_bag_to_check]
+                amount_of_bags_per_bag[bag] = amount
     to_check.remove(current_bag_to_check)
 
 
 def calculate_amount_of_bags_in_shiny_gold():
     bag_sum = 0
     for bag in all_bags['shiny gold']:
-        bag_sum += meine_kinder_liste[bag] * all_bags['shiny gold'].get(bag)
+        bag_sum += amount_of_bags_per_bag[bag] * all_bags['shiny gold'].get(bag)
     return bag_sum
 
 print(calculate_amount_of_bags_in_shiny_gold())
