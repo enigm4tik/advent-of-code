@@ -1,7 +1,5 @@
 # [Advent of Code 2016](https://adventofcode.com/2016/)
 
-### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016)
-
 <table>
     <tr>
         <th colspan="7">December</th>
