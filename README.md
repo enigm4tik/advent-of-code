@@ -100,7 +100,7 @@ Collection of (solved) puzzles from Advent of Code
         <th></th>
         <th></th>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day01/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day01/day01.py">01</a></th>
         <th>02</th>
         <th>03</th>
         <th>04</th>
