@@ -22,11 +22,11 @@ def decipher_digit(code, starting_digit='5', keypad=None, length=0):
     for index, letter in enumerate(code):
         if index == 0:
             returning_coordinate = starting_coordinate
-        zeile = returning_coordinate[0] + directions[letter][0]
-        spalte = returning_coordinate[1] + directions[letter][1]
-        if zeile <= length and zeile >= 0 and spalte <= length and spalte >= 0 and keypad[(zeile, spalte)] != '0':
-            returning_coordinate[0] = zeile
-            returning_coordinate[1] = spalte
+        row = returning_coordinate[0] + directions[letter][0]
+        column = returning_coordinate[1] + directions[letter][1]
+        if row <= length and row >= 0 and column <= length and column >= 0 and keypad[(row, column)] != '0':
+            returning_coordinate[0] = row
+            returning_coordinate[1] = column
     return keypad[tuple(returning_coordinate)]
 
 
