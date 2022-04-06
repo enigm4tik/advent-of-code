@@ -48,6 +48,6 @@
 
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
-[Day 01](https://adventofcode.com/2016/day/1)  | No Time for a Taxicab | Directions are confusing! | Interesting lookup, multiplication and finding my way through my mess.
+[Day 01](https://adventofcode.com/2016/day/1)  | No Time for a Taxicab | Directions are confusing! | Interesting lookup and finding my way through my mess.
 [Day 02](https://adventofcode.com/2016/day/2)  | Bathroom Security | Numpy to the rescue | Very pretty, reusable code.
 [Day 03](https://adventofcode.com/2016/day/3)  | Squares With Three Sides | Numpy to the rescue II | Math is my favorite subject.
