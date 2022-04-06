@@ -90,7 +90,7 @@ Collection of (solved) puzzles from Advent of Code
     </tr>
 </table>
 
-### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016) (4*)
+### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016) (6*)
 
 <table>
     <tr>
@@ -102,7 +102,7 @@ Collection of (solved) puzzles from Advent of Code
         <th></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day01/day01.py">01</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day02/day02.py">02</a></th>
-        <th>03</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day03/day03.py">03</a></th>
         <th>04</th>
     </tr>
     <tr>
