@@ -9,7 +9,7 @@
         <th></th>
         <th></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day01/day01.py">01</a></th>
-        <th>02</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day02/day02.py">02</a></th>
         <th>03</th>
         <th>04</th>
     </tr>
@@ -48,4 +48,5 @@
 
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
-[Day 01](https://adventofcode.com/2015/day/1)  | No Time for a Taxicab | Directions are confusing! | Interesting lookup, multiplication and finding my way through my mess.
+[Day 01](https://adventofcode.com/2016/day/1)  | No Time for a Taxicab | Directions are confusing! | Interesting lookup, multiplication and finding my way through my mess.
+[Day 02](https://adventofcode.com/2016/day/2)  | Bathroom Security | Numpy to the rescue
