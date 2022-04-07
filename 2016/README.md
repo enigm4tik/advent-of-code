@@ -11,7 +11,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day01/day01.py">01</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day02/day02.py">02</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day03/day03.py">03</a></th>
-        <th>04</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day04/day04.py">04</a></th>
     </tr>
     <tr>
         <th>05</th>
@@ -51,3 +51,4 @@ Day | Name | Info | Notes
 [Day 01](https://adventofcode.com/2016/day/1)  | No Time for a Taxicab | Directions are confusing! | Interesting lookup and finding my way through my mess.
 [Day 02](https://adventofcode.com/2016/day/2)  | Bathroom Security | Numpy to the rescue | Very pretty, reusable code.
 [Day 03](https://adventofcode.com/2016/day/3)  | Squares With Three Sides | Numpy to the rescue II | Math is my favorite subject.
+[Day 04](https://adventofcode.com/2016/day/4)  | Security Through Obscurity | One of these days I'll use regex | Creating a checksum was fun!
