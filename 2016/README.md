@@ -15,8 +15,8 @@
     </tr>
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day05/day05.py">05</a></th>
-        <th>06</th>
-        <th>07</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day06/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day07/day07.py">07</a></th>
         <th>08</th>
         <th>09</th>
         <th>10</th>
@@ -53,3 +53,5 @@ Day | Name | Info | Notes
 [Day 03](https://adventofcode.com/2016/day/3)  | Squares With Three Sides | Numpy to the rescue II | Math is my favorite subject.
 [Day 04](https://adventofcode.com/2016/day/4)  | Security Through Obscurity | One of these days I'll use regex | Creating a checksum was fun!
 [Day 05](https://adventofcode.com/2016/day/5)  | How About a Nice Game of Chess? | Reminds me of last year! | Takes some time but it gets the job done.
+[Day 06](https://adventofcode.com/2016/day/6)  | Signals and Noise | Least and most frequent character | Numpy to the rescue
+[Day 07](https://adventofcode.com/2016/day/7)  | Internet Protocol Version 7 | A million functions | I really enjoyed this one
