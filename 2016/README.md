@@ -18,7 +18,7 @@
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day06/day06.py">06</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day07/day07.py">07</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day08/day08.py">08</a></th>
-        <th>09</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day09/day09.py">09</a>*</th>
         <th>10</th>
         <th>11</th>
     </tr>
@@ -56,3 +56,4 @@ Day | Name | Info | Notes
 [Day 06](https://adventofcode.com/2016/day/6)  | Signals and Noise | Least and most frequent character | Numpy to the rescue
 [Day 07](https://adventofcode.com/2016/day/7)  | Internet Protocol Version 7 | A million functions | I really enjoyed this one
 [Day 08](https://adventofcode.com/2016/day/8)  | Two-Factor Authentication | Move rows and columns | Numpy to the rescue #2
+[Day 09](https://adventofcode.com/2016/day/9)  | Explosives in Cyberspace | Compression | Multiple levels of compression
