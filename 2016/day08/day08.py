@@ -30,11 +30,11 @@ def rotate_column(screen, y_value, rotate_value):
 
 
 def make_human_readable(screen):
-    a = []
+    column = []
     for i in range(6):
-        a.append([bla.item() for bla in np.nditer(screen[i:i+1,:])])
-    for row in range(len(a)):
-        print(''.join(a[row]))
+        column.append([displayed_item.item() for displayed_item in np.nditer(screen[i:i+1,:])])
+    for row in range(len(column)):
+        print(''.join(column[row]))
 
 for line in lines:
     if line.startswith('rect'):
