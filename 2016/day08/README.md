@@ -1,4 +1,5 @@
-# Output of Part 2: ZJHRKCPLYJ
+# Output of Part 2
+ZJHRKCPLYJ
 
 ```sh
 ####...##.#..#.###..#..#..##..###..#....#...#..##.  
