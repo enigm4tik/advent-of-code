@@ -23,7 +23,7 @@
         <th>11</th>
     </tr>
     <tr>
-        <th>12</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12/day12.py">12</a></th>
         <th>13</th>
         <th>14</th>
         <th>15</th>
@@ -57,3 +57,5 @@ Day | Name | Info | Notes
 [Day 07](https://adventofcode.com/2016/day/7)  | Internet Protocol Version 7 | A million functions | I really enjoyed this one
 [Day 08](https://adventofcode.com/2016/day/8)  | Two-Factor Authentication | Move rows and columns | Numpy to the rescue #2
 [Day 09](https://adventofcode.com/2016/day/9)  | Explosives in Cyberspace | Compression | Multiple levels of compression
+[Day 10](https://adventofcode.com/2016/day/10)  | Balance Bots | Dictionaries are friends | This was pretty fun
+[Day 12](https://adventofcode.com/2016/day/12)  | Leonardo's Monorail | - | Trust in yourself, even if it takes time 
