@@ -25,7 +25,7 @@
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12/day12.py">12</a></th>
         <th>13</th>
-        <th>14</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14/day14.py">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
@@ -59,3 +59,4 @@ Day | Name | Info | Notes
 [Day 09](https://adventofcode.com/2016/day/9)  | Explosives in Cyberspace | Compression | Multiple levels of compression
 [Day 10](https://adventofcode.com/2016/day/10)  | Balance Bots | Dictionaries are friends | This was pretty fun
 [Day 12](https://adventofcode.com/2016/day/12)  | Leonardo's Monorail | - | Trust in yourself, even if it takes time 
+[Day 14](https://adventofcode.com/2016/day/14)  | One-Time Pad | Hashing & Key Stretching | Start new if it takes too long!

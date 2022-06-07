@@ -88,7 +88,7 @@
     </tr>
 </table>
 
-### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016) (21*)
+### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016) (23*)
 
 <table>
     <tr>
@@ -115,7 +115,7 @@
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12/day12.py">12</a></th>
         <th>13</th>
-        <th>14</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14/day14.py">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
