@@ -8,24 +8,24 @@
         <th></th>
         <th></th>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day01/day01.py">01</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day02/day02.py">02</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day03/day03.py">03</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day04/day04.py">04</a></th>
+        <th><a href="https://adventofcode.com/2016/day/1">01</a></th>
+        <th><a href="https://adventofcode.com/2016/day/2">02</a></th>
+        <th><a href="https://adventofcode.com/2016/day/3">03</a></th>
+        <th><a href="https://adventofcode.com/2016/day/4">04</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day05/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day06/day06.py">06</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day07/day07.py">07</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day08/day08.py">08</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day09/day09.py">09</a>*</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day10/day10.py">10</a></th>
+        <th><a href="https://adventofcode.com/2016/day/5">05</a></th>
+        <th><a href="https://adventofcode.com/2016/day/6">06</a></th>
+        <th><a href="https://adventofcode.com/2016/day/7">07</a></th>
+        <th><a href="https://adventofcode.com/2016/day/8">08</a></th>
+        <th><a href="https://adventofcode.com/2016/day/9">09</a>*</th>
+        <th><a href="https://adventofcode.com/2016/day/10">10</a></th>
         <th>11</th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12/day12.py">12</a></th>
+        <th><a href="https://adventofcode.com/2016/day/12">12</a></th>
         <th>13</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14/day14.py">14</a></th>
+        <th><a href="https://adventofcode.com/2016/day/14">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
@@ -48,15 +48,15 @@
 
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
-[Day 01](https://adventofcode.com/2016/day/1)  | No Time for a Taxicab | Directions are confusing! | Interesting lookup and finding my way through my mess.
-[Day 02](https://adventofcode.com/2016/day/2)  | Bathroom Security | Numpy to the rescue | Very pretty, reusable code.
-[Day 03](https://adventofcode.com/2016/day/3)  | Squares With Three Sides | Numpy to the rescue II | Math is my favorite subject.
-[Day 04](https://adventofcode.com/2016/day/4)  | Security Through Obscurity | One of these days I'll use regex | Creating a checksum was fun!
-[Day 05](https://adventofcode.com/2016/day/5)  | How About a Nice Game of Chess? | Reminds me of last year! | Takes some time but it gets the job done.
-[Day 06](https://adventofcode.com/2016/day/6)  | Signals and Noise | Least and most frequent character | Numpy to the rescue
-[Day 07](https://adventofcode.com/2016/day/7)  | Internet Protocol Version 7 | A million functions | I really enjoyed this one
-[Day 08](https://adventofcode.com/2016/day/8)  | Two-Factor Authentication | Move rows and columns | Numpy to the rescue #2
-[Day 09](https://adventofcode.com/2016/day/9)  | Explosives in Cyberspace | Compression | Multiple levels of compression
-[Day 10](https://adventofcode.com/2016/day/10)  | Balance Bots | Dictionaries are friends | This was pretty fun
-[Day 12](https://adventofcode.com/2016/day/12)  | Leonardo's Monorail | - | Trust in yourself, even if it takes time 
-[Day 14](https://adventofcode.com/2016/day/14)  | One-Time Pad | Hashing & Key Stretching | Start new if it takes too long!
+[01](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day01/day01.py)  | No Time for a Taxicab | Directions are confusing! | Interesting lookup and finding my way through my mess.
+[02](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day02/day02.py)  | Bathroom Security | Numpy to the rescue | Very pretty, reusable code.
+[03](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day03/day03.py)  | Squares With Three Sides | Numpy to the rescue II | Math is my favorite subject.
+[04](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day04/day04.py)  | Security Through Obscurity | One of these days I'll use regex | Creating a checksum was fun!
+[05](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day05/day05.py)  | How About a Nice Game of Chess? | Reminds me of last year! | Takes some time but it gets the job done.
+[06](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day06/day06.py)  | Signals and Noise | Least and most frequent character | Numpy to the rescue
+[07](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day07/day07.py)  | Internet Protocol Version 7 | A million functions | I really enjoyed this one
+[08](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day08/day08.py)  | Two-Factor Authentication | Move rows and columns | Numpy to the rescue #2
+[09](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day09/day09.py)  | Explosives in Cyberspace | Compression | Multiple levels of compression
+[10](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day10/day10.py)  | Balance Bots | Dictionaries are friends | This was pretty fun
+[12](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12/day12.py)  | Leonardo's Monorail | - | Trust in yourself, even if it takes time 
+[14](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14/day14.py)  | One-Time Pad | Hashing & Key Stretching | Start new if it takes too long!
