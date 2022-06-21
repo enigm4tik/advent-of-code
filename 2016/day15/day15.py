@@ -13,11 +13,8 @@ def parse_line(line):
     disc_number = split_line[1]
     disc_number = int(split_line[1][1:])
     positions = int(split_line[3])
-    first_position = int(split_line[-1][0])
-    if not first_position == 0:
-        offset = positions - first_position
-    else:
-        offset = disc_number
+    first_position = int(split_line[-1][:-1])
+    offset = positions - first_position
     container.append(
         {
             'disc': disc_number,
@@ -29,26 +26,28 @@ def parse_line(line):
 for line in lines: 
     parse_line(line)
 
-print(container)
-
-def is_this_a_slot(time, disc):
+def is_this_a_valid_slot(time, disc):
     offset_disc_value = time + disc['disc'] - disc['offset']
     if offset_disc_value % disc['positions'] == 0:
         return True
     else:
         return False
 
+def find_correct_time_slot(container):
+    time = 0
+    while True:
+        results = [False for i in range(len(container))]
+        for i in range(len(container)):
+            results[i] = is_this_a_valid_slot(time, container[1])
+        if all(results):
+            return time
+        else:
+            time += 1
 
-time_slot_found = False
-time = 0
+part1 = find_correct_time_slot(container)
+print(f"Part 1: {part1})
 
-while not time_slot_found:
-    a = [False for i in range(len(container))]
-    for i in range(len(container)):
-        a[i] = is_this_a_slot(time, container[i])
-    print(a)
-    if all(a):
-        time_slot_found = True
-        print(time)
-    else:
-        time += 1
+# Parse additional line (adding a disc)
+parse_line("Disc #7 has 11 positions; at time=0, it is at positions 0."
+part2 = find_correct_time_slot(container)
+print(f"Part 2: {part2})

@@ -26,7 +26,7 @@
         <th><a href="https://adventofcode.com/2016/day/12">12</a></th>
         <th>13</th>
         <th><a href="https://adventofcode.com/2016/day/14">14</a></th>
-        <th>15</th>
+        <th><a href="https://adventofcode.com/2016/day/15">15</a></th>
         <th>16</th>
         <th>17</th>
         <th>18</th>
@@ -60,3 +60,4 @@ Day | Name | Info | Notes
 [10](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day10/day10.py)  | Balance Bots | Dictionaries are friends | This was pretty fun
 [12](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12/day12.py)  | Leonardo's Monorail | - | Trust in yourself, even if it takes time 
 [14](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14/day14.py)  | One-Time Pad | Hashing & Key Stretching | Start new if it takes too long!
+[15](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day15/day15.py)  | Timing is Everything | Chinese Remainder Theorem | The problem was in the parsing... not the logic!
