@@ -29,7 +29,7 @@
         <th><a href="https://adventofcode.com/2016/day/15">15</a></th>
         <th><a href="https://adventofcode.com/2016/day/16">16</a></th>
         <th>17</th>
-        <th>18</th>
+        <th><a href="https://adventofcode.com/2016/day/18">18</a></th>
     </tr>
     <tr>
         <th>19</th>
@@ -62,3 +62,4 @@ Day | Name | Info | Notes
 [14](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14/day14.py)  | One-Time Pad | Hashing & Key Stretching | Start new if it takes too long!
 [15](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day15/day15.py)  | Timing is Everything | Chinese Remainder Theorem | The problem was in the parsing... not the logic!
 [16](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day16/day16.py)  | Dragon Curve | Very fun!
+[18](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day18/day18.py)  | Like a Rogue | A lot of functions 
