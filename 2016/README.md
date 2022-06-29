@@ -34,7 +34,7 @@
     <tr>
         <th>19</th>
         <th>20</th>
-        <th>21</th>
+        <th><a href="https://adventofcode.com/2016/day/21">21</a></th>
         <th>22</th>
         <th>23</th>
         <th>24</th>
@@ -63,3 +63,4 @@ Day | Name | Info | Notes
 [15](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day15/day15.py)  | Timing is Everything | Chinese Remainder Theorem | The problem was in the parsing... not the logic!
 [16](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day16/day16.py)  | Dragon Curve | Very fun!
 [18](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day18/day18.py)  | Like a Rogue | A lot of functions 
+[21](https://github.com/enigm4tik/advent-of-code/blob/main/2016/day21/day21.py)  | Scrambled Letters and Hash | I love instructions
