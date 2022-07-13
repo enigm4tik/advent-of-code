@@ -104,7 +104,7 @@
         <th>03</th>
     </tr>
     <tr>
-        <th>04</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02/day04.py">04</a></th>
         <th>05</th>
         <th>06</th>
         <th>07</th>

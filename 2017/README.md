@@ -14,7 +14,7 @@
         <th>03</th>
     </tr>
     <tr>
-        <th>04</th>
+        <th><a href="https://adventofcode.com/2017/day/4">04</a></th>
         <th>05</th>
         <th>06</th>
         <th>07</th>
