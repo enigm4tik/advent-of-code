@@ -56,3 +56,6 @@
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
 [02](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02/day02.py)  | Corruption Checksum | Basic Maths | Easy start :D
+[04](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day04/day04.py)  | High-Entropy Passphrases | My favorite, permutations :D | I enjoyed this
+[05](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05/day05.py)  | A Maze of Twisty Trampolines, All Alike | I learned list wrap-around | Such a long title ;(
+

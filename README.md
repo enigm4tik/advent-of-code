@@ -104,8 +104,8 @@
         <th>03</th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02/day04.py">04</a></th>
-        <th>05</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day04/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05/day05.py">05</a></th>
         <th>06</th>
         <th>07</th>
         <th>08</th>
