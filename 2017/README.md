@@ -15,8 +15,8 @@
     </tr>
     <tr>
         <th><a href="https://adventofcode.com/2017/day/4">04</a></th>
-        <th>05</th>
-        <th>06</th>
+        <th><a href="https://adventofcode.com/2017/day/5">05</a></th>
+        <th><a href="https://adventofcode.com/2017/day/6">06</a></th>
         <th>07</th>
         <th>08</th>
         <th>09</th>
@@ -57,5 +57,5 @@ Day | Name | Info | Notes
 :--- | :-- | :---  | :----
 [02](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02/day02.py)  | Corruption Checksum | Basic Maths | Easy start :D
 [04](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day04/day04.py)  | High-Entropy Passphrases | My favorite, permutations :D | I enjoyed this
-[05](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05/day05.py)  | A Maze of Twisty Trampolines, All Alike | I learned list wrap-around | Such a long title ;(
-
+[05](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05/day05.py)  | A Maze of Twisty Trampolines, All Alike | Takes a long time | Remember to copy the list
+[06](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day06/day06.py)  | Memory Reallocation | I learned list wrap-around | Part 2 was easy :D
