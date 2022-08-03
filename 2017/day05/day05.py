@@ -30,7 +30,7 @@ def check_for_exit(new_position, check_list):
   else:
     return True
 
-def move_once_step_according_to_instructions(instructions, current_position, part2=False):
+def move_one_step_according_to_instructions(instructions, current_position, part2=False):
   current_offset = instructions[current_position]
   new_position = jump_according_to_offset(current_position, current_offset)
   instructions[current_position] = adjust_offset(instructions[current_position], part2)
@@ -39,7 +39,7 @@ def move_once_step_according_to_instructions(instructions, current_position, par
 def day_05(check_value, part2=False):
   valid_jumps = 0
   while check_for_exit(check_value[0], check_value[1]):
-    check_value[0], check_value[1] = move_once_step_according_to_instructions(check_value[1], check_value[0], part2)
+    check_value[0], check_value[1] = move_one_step_according_to_instructions(check_value[1], check_value[0], part2)
     valid_jumps += 1
 
   return valid_jumps
