@@ -1,5 +1,25 @@
 # Advent of Code 
 
+A collection of my solutions to the Advent of Code puzzles. 
+## Quick Menu
+
+<table>
+<tr>
+<th>Years</th>
+<td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2015">2015</a></td>
+<td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2016">2016</a></td>
+<td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2017">2017</a></td>
+<td>2018</td>
+<td>2019</td>
+<td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2020">2020</a></td>
+<td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2021">2021</a></td>
+</tr><tr>
+<th>Stars</th><td>31</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td>
+</tr>
+</table>
+
+## Calendar View
+
 ### [Advent of Code 2021](https://github.com/enigm4tik/advent-of-code/tree/main/2021) (26*)
 
 <table>
