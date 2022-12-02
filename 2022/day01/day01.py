@@ -43,7 +43,7 @@ with open('puzzle_input', 'r') as file:
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")
-print(f"{'Advent of Code - Day 1':^55}")
+print(f"{'Advent of Code 2022 - Day 1':^55}")
 print(".       .      *      -        -     *     .     .    .")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
 print(f"Part 1: {find_top_x_elves(elf_calories_dictionary, 1)}")
