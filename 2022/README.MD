@@ -9,7 +9,7 @@
         <th></th>
         <th></th>
         <th><a href="https://adventofcode.com/2022/day/1">01</a></th>
-        <th>02</th>
+        <th><a href="https://adventofcode.com/2022/day/2">02</a></th>
         <th>03</th>
         <th>04</th>
     </tr>
@@ -48,3 +48,4 @@
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
 [Day 01](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day01/day01.py) | Calorie Counting | List and Dictionary Comprehension | Keep it simple
+[Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day02/day02.py) | Rock Paper Scissors | So many Dictionaries | Which one beats which again?
