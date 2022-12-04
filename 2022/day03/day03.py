@@ -1,7 +1,14 @@
 # Advent of Code - 2022
-## Day 2
+## Day 3
 
 def calculate_priority(item_type):
+    """
+    Calculate the priority score for each letter.
+    Score[a-z] = 1-26
+    Score[A-Z] = 27-52
+    :param item_type: one letter string
+    :return: Calculated score
+    """
     adjustment = 96
     unicode_value = ord(item_type)
     if unicode_value < 97:
@@ -10,6 +17,12 @@ def calculate_priority(item_type):
 
 
 def calculate_sum_of_priorities(item_list):
+    """
+    Calculate sum of priorities per backpack
+    Each backpack has 2 equal sized compartment (split list in half)
+    :param item_list: list of all backpacks
+    :return: sum of all calculated priorities
+    """
     result = 0
     for item in item_list:
         compartment1, compartment2 = set(item[:len(item) // 2]), set(item[len(item) // 2:])
@@ -19,6 +32,11 @@ def calculate_sum_of_priorities(item_list):
 
 
 def calculate_sum_of_priorties_part_2(item_list):
+    """
+    Calculate the sum of priorities over 3 backpacks
+    :param item_list: list of all backpacks
+    :return: sum of all priorities calculated for groups of 3
+    """
     result = 0
     one_third_length = int(len(item_list) / 3)
     for i in range(one_third_length):

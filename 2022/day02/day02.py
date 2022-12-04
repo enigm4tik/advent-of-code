@@ -41,15 +41,27 @@ conditions = {
 }
 
 
-def determine_my_move(opponent, me):
+def determine_my_move(opponent, outcome):
+    """
+    Determine the move based on the opponent's move and their win condition (win, lose, draw)
+    :param opponent: letter describing their move (A, B, C)
+    :param win_condition: letter describing the outcome (X, Y, Z)
+    :return: letter describing desired move (A, B, C)
+    """
     key_list = list(conditions[moves[opponent]].keys())
     val_list = list(conditions[moves[opponent]].values())
-    my_move = key_list[val_list.index(resolutions_for_opponent[me])]
+    my_move = key_list[val_list.index(resolutions_for_opponent[outcome])]
     my_letter = list(moves.keys())[list(moves.values()).index(my_move)]
     return my_letter
 
 
 def calculate_my_score(input, with_conditions=False):
+    """
+    Calculate player's score based on their move.
+    :param input: list of moves by opponent and player
+    :param with_conditions: boolean, if True consider outcome
+    :return: calculated total points of player
+    """
     total_points = 0
     for line in input:
         first, second = line
