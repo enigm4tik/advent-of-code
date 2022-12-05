@@ -14,7 +14,7 @@
         <th><a href="https://adventofcode.com/2022/day/4">04</a></th>
     </tr>
     <tr>
-        <th>05</th>
+        <th><a href="https://adventofcode.com/2022/day/5">05</a></th>
         <th>06</th>
         <th>07</th>
         <th>08</th>
@@ -51,3 +51,4 @@ Day | Name | Info | Notes
 [Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day02/day02.py) | Rock Paper Scissors | So many Dictionaries | Which one beats which again?
 [Day 03](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day03/day03.py) | Rucksack Reorganization | Set Operations | Thanks for showing me ord()
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day04/day04.py) | Camp Cleanup | Set Operations II | Quick and pretty :D
+[Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day05/day05.py) | Supply Stacks | Parsing is No Joke | textwrap is cool

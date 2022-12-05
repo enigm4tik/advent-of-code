@@ -15,13 +15,13 @@ A collection of my solutions to the Advent of Code puzzles.
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2021">2021</a></td>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2022">2022</a></td>
 </tr><tr>
-<th>Stars</th><td>31</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td><td>8</td>
+<th>Stars</th><td>31</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td><td>10</td>
 </tr>
 </table>
 
 ## Calendar View
 
-### [Advent of Code 2022](https://github.com/enigm4tik/advent-of-code/tree/main/2022) (8*)
+### [Advent of Code 2022](https://github.com/enigm4tik/advent-of-code/tree/main/2022) (10*)
 
 <table>
     <tr>
@@ -37,7 +37,7 @@ A collection of my solutions to the Advent of Code puzzles.
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day04/day04.py">04</a></th>
     </tr>
     <tr>
-        <th>05</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day05/day05.py">05</a></th>
         <th>06</th>
         <th>07</th>
         <th>08</th>
