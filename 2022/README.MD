@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <th><a href="https://adventofcode.com/2022/day/5">05</a></th>
-        <th>06</th>
+        <th><a href="https://adventofcode.com/2022/day/6">06</a></th>
         <th>07</th>
         <th>08</th>
         <th>09</th>
@@ -52,3 +52,4 @@ Day | Name | Info | Notes
 [Day 03](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day03/day03.py) | Rucksack Reorganization | Set Operations | Thanks for showing me ord()
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day04/day04.py) | Camp Cleanup | Set Operations II | Quick and pretty :D
 [Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day05/day05.py) | Supply Stacks | Parsing is No Joke | textwrap is cool
+[Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day06/day06.py) | Tuning Trouble | Set Operations III | Very efficient and fast
