@@ -2,6 +2,13 @@
 ## Day 6
 
 def find_start_of_packet_marker(input_string, length):
+    """
+    Find the first occurence of substring with <length> in <input_string>
+    that has all different characters.
+    :param input_string: string
+    :param length: int, length of substring to find
+    :return: int, packet marker position
+    """
     for i in range(len(input_string) - length - 1):
         candidate = input_string[i: i + length]
         if len(set(candidate)) == length:
