@@ -15,7 +15,7 @@ A collection of my solutions to the Advent of Code puzzles.
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2021">2021</a></td>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2022">2022</a></td>
 </tr><tr>
-<th>Stars</th><td>31</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td><td>12</td>
+<th>Stars</th><td>31</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td><td>16</td>
 </tr>
 </table>
 
@@ -39,8 +39,8 @@ A collection of my solutions to the Advent of Code puzzles.
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day05/day05.py">05</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day06/day06.py">06</a></th>
-        <th>07</th>
-        <th>08</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day07/day07.py">07</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day08/day08.py">08</a></th>
         <th>09</th>
         <th>10</th>
         <th>11</th>
