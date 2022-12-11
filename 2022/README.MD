@@ -18,7 +18,7 @@
         <th><a href="https://adventofcode.com/2022/day/6">06</a></th>
         <th><a href="https://adventofcode.com/2022/day/7">07</a></th>
         <th><a href="https://adventofcode.com/2022/day/8">08</a></th>
-        <th>09</th>
+        <th><a href="https://adventofcode.com/2022/day/9">09</a></th>
         <th>10</th>
         <th>11</th>
     </tr>
@@ -53,5 +53,6 @@ Day | Name | Info | Notes
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day04/day04.py) | Camp Cleanup | Set Operations II | Quick and pretty :D
 [Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day05/day05.py) | Supply Stacks | Parsing is No Joke | textwrap is cool
 [Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day06/day06.py) | Tuning Trouble | Set Operations III | Very efficient and fast
-[Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day06/day07.py) | No Space Left On Device | Tree! | Frustrating and I misunderstood part 2's question
-[Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day06/day08.py) | Treetop Tree House | Numpy Arrays | I am not part of my neighbors
+[Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day07/day07.py) | No Space Left On Device | Tree! | Frustrating and I misunderstood part 2's question
+[Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day08/day08.py) | Treetop Tree House | Numpy Arrays | I am not part of my neighbors
+[Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2022/day09/day08.py) | Rope Bridge | Numpy Arrays? | Just be very verbose...
