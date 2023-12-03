@@ -106,7 +106,7 @@ part2 = calculate_power_of_cubes(games)
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")
-print(f"{'Advent of Code 2023 - Day 1':^55}")
+print(f"{'Advent of Code 2023 - Day 2':^55}")
 print(".       .      *      -        -     *     .     .    .")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
 print(f"Part 1: {part1:^55}")
