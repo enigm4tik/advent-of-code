@@ -33,12 +33,12 @@ A collection of my solutions to the Advent of Code puzzles.
         <th></th>
         <th></th>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day01/day01.py">01</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day02/day02.py">02</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day03/day03.py">03</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day02.py">02</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day03.py">03</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day04/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day04.py">04</a></th>
         <th>05</th>
         <th>06</th>
         <th>07</th>
@@ -85,18 +85,18 @@ A collection of my solutions to the Advent of Code puzzles.
         <th></th>
         <th></th>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day01/day01.py">01</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day02/day02.py">02</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day03/day03.py">03</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day04/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day02.py">02</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day03.py">03</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day04.py">04</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day05/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day06/day06.py">06</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day07/day07.py">07</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day08/day08.py">08</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day09/day09.py">09</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day10/day10.py">10</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day05.py">05</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day07.py">07</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day08.py">08</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day09.py">09</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2022/day10.py">10</a></th>
         <th>11</th>
     </tr>
     <tr>
@@ -128,24 +128,24 @@ A collection of my solutions to the Advent of Code puzzles.
     <tr>
         <th></th>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day01/day01.py">01</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day02/day02.py">02</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day03/day03.py">03</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day04/day04.py">04</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day05/day05.py">05</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day02.py">02</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day03.py">03</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day05.py">05</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day06/day06.py">06</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day07/day07.py">07</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day08/day08.py">08</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day09/day09.py">09</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day10/day10.py">10</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day11/day11.py">11</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day07.py">07</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day08.py">08</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day09.py">09</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day10.py">10</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day11.py">11</a></th>
         <th>12</th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day13/day13.py">13</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day14/day14.py">14</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day13.py">13</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2021/day14.py">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
@@ -171,15 +171,15 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
     <tr>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day01/day01.py">01</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day02/day02.py">02</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day03/day03.py">03</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day04/day04.py">04</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day05/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day06/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day02.py">02</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day03.py">03</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day05.py">05</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day06.py">06</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day07/day07.py">07</a>*</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2020/day07.py">07</a>*</th>
         <th>08</th>
         <th>09</th>
         <th>10</th>
@@ -219,15 +219,15 @@ A collection of my solutions to the Advent of Code puzzles.
         <th></th>
         <th></th>
         <th>01</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02/day02.py">02</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02.py">02</a></th>
         <th>03</th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day04/day04.py">04</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day06/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05.py">05</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day06.py">06</a></th>
         <th>07</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day08/day08.py">08</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day08.py">08</a></th>
         <th>09</th>
         <th>10</th>
     </tr>
@@ -270,33 +270,33 @@ A collection of my solutions to the Advent of Code puzzles.
         <th></th>
         <th></th>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day01/day01.py">01</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day02/day02.py">02</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day03/day03.py">03</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day04/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day02.py">02</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day03.py">03</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day04.py">04</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day05/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day06/day06.py">06</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day07/day07.py">07</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day08/day08.py">08</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day09/day09.py">09</a>*</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day10/day10.py">10</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day05.py">05</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day07.py">07</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day08.py">08</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day09.py">09</a>*</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day10.py">10</a></th>
         <th>11</th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12/day12.py">12</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day12.py">12</a></th>
         <th>13</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14/day14.py">14</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day15/day15.py">15</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day16/day16.py">16</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day14.py">14</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day15.py">15</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day16.py">16</a></th>
         <th>17</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day18/day18.py">18</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day18.py">18</a></th>
     </tr>
     <tr>
         <th>19</th>
         <th>20</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day21/day21.py">21</a>*</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2016/day21.py">21</a>*</th>
         <th>22</th>
         <th>23</th>
         <th>24</th>
@@ -312,28 +312,28 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
     <tr>
         <th></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day01/day01.py">01</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day02/day02.py">02</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day03/day03.py">03</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day04/day04.py">04</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day06/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day01.py">01</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day02.py">02</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day03.py">03</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day04.py">04</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05.py">05</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day06.py">06</a></th>
     </tr>
     <tr>
         <th>07</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day08/day08.py">08</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day09/day09.py">09</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day08.py">08</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day09.py">09</a></th>
         <th>10</th>
         <th>11</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12/day12.py">12</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day13/day13.py">13</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12.py">12</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day13.py">13</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14/day14.py">14</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15/day15.py">15</a>*</th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16/day16.py">16</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17/day17.py">17</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18/day18.py">18</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14.py">14</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.py">15</a>*</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16.py">16</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17.py">17</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18.py">18</a></th>
         <th>19</th>
         <th>20</th>
     </tr>
