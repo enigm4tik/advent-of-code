@@ -11,8 +11,7 @@ using namespace std;
 using bigInt = unsigned long long int;
 
 bigInt calculateDistance(bigInt time, bigInt speed){
-    bigInt value = time - speed;
-    bigInt travel_distance = speed * value;
+    bigInt travel_distance = speed * (time - speed);
     return travel_distance;
 }
 
