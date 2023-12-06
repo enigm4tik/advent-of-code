@@ -1,13 +1,7 @@
+# Advent of Code - 2023
+## Day 5
+
 import itertools
-
-with open('puzzle_input', 'r') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
-
-grouper = itertools.groupby(lines, key= lambda x: x == "") #separate the list by newline
-parsed_lines = [list(j) for i, j in grouper if not i]
-
-seeds = [int(i) for i in parsed_lines[0][0].split(':')[1].split(' ') if not i == ""]
 
 def navigate_lists(source_id, list_of_maps):
     """
@@ -136,6 +130,7 @@ def one_iteration(list_of_seeds, map_to_check):
                 seeds_to_process.append(seed)
     return list(set(seeds_to_process))
 
+
 def all_iterations():
     """
     Iterating through all mappings to find the smallest location.
@@ -160,5 +155,21 @@ def all_iterations():
         list_of_seeds = one_iteration(list_of_seeds, mapping)
     return(min(list_of_seeds)[0])
 
-print(determine_minimal_location(seeds))
-print(all_iterations())
+with open('puzzle_input', 'r') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+
+grouper = itertools.groupby(lines, key= lambda x: x == "") #separate the list by newline
+parsed_lines = [list(j) for i, j in grouper if not i]
+
+seeds = [int(i) for i in parsed_lines[0][0].split(':')[1].split(' ') if not i == ""]
+
+print("- -      -     -   *  -    -     -      -  *  *  - -   ")
+print("*   -    .   .    .       *     .  .   .    *       -  ")
+print(f"{'Advent of Code 2023 - Day 5':^55}")
+print(".       .      *      -        -     *     .     .    .")
+print("    -      .    -  *    -    -    *    .  .  .    *   -")
+print(f"Part 1: {determine_minimal_location(seeds):^55}")
+print(f"Part 2: {all_iterations():^55}")
+print("    -      .    -  *    -    -    *    .  .  .    *   -")
+print(".       .      *      -        -     *     .     .    .")

@@ -16,7 +16,7 @@
     <tr>
         <th><a href="https://adventofcode.com/2023/day/4">04</a></th>
         <th><a href="https://adventofcode.com/2023/day/5">05</a></th>
-        <th>06</th>
+        <th><a href="https://adventofcode.com/2023/day/6">06</a></th>
         <th>07</th>
         <th>08</th>
         <th>09</th>
@@ -61,3 +61,4 @@ Day | Name | Info | Notes
 [Day 03](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day03.py) | Gear Ratios | Numpy | Good setup saves a lot of time
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day04.py) | Scratchcards | Set Operations | Quick and easy
 [Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day05.py) | If You Give A Seed A Fertilizer | Ranges, everywhere | Part 2 was a doozy
+[Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day05.py) | Wait For It | Consider both sides | Binary search might be easier?
