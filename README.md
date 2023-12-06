@@ -40,7 +40,7 @@ A collection of my solutions to the Advent of Code puzzles.
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day04.py">04</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.py">06</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.py">0</a> <a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.cpp">6</a></th>
         <th>07</th>
         <th>08</th>
         <th>09</th>
