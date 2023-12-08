@@ -67,6 +67,10 @@ for line in lines[2:]:
 
 instruction = lines[0]
 
+# Part 1:
+part1 = determine_steps('AAA', instruction, lookup_map)
+
+# Part 2:
 all_starts = [start for start in lookup_map.keys() if start.endswith('A')]
 required_steps = []
 for start in all_starts:
@@ -80,16 +84,16 @@ for number in required_steps:
     result_list += prime_factors
 
 result_list = list(set(result_list))
-result = 1 
+part2 = 1 
 for u in result_list:
-    result *= u
+    part2 *= u
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")
 print(f"{'Advent of Code 2023 - Day 8':^55}")
 print(".       .      *      -        -     *     .     .    .")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
-print(f"Part 1: {determine_steps('AAA', instruction, lookup_map):^55}")
-print(f"Part 2: {result:^55}")
+print(f"Part 1: {part1:^55}")
+print(f"Part 2: {part2:^55}")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
 print(".       .      *      -        -     *     .     .    .")
