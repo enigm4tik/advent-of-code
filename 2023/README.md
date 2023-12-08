@@ -18,7 +18,7 @@
         <th><a href="https://adventofcode.com/2023/day/5">05</a></th>
         <th><a href="https://adventofcode.com/2023/day/6">06</a></th>
         <th><a href="https://adventofcode.com/2023/day/7">07</a></th>
-        <th>08</th>
+        <th><a href="https://adventofcode.com/2023/day/8">08</a></th>
         <th>09</th>
         <th>10</th>
     </tr>
@@ -62,3 +62,4 @@ Day | Name | Info | Notes
 [Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day05.py) | If You Give A Seed A Fertilizer | Ranges, everywhere | Part 2 was a doozy
 [Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.py) | Wait For It | Consider both sides | Binary Search [Implementation in C++](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.cpp)
 [Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day07.py) | Camel Cards | Sets, Conversions | Easier than expected
+[Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day08.py) | Haunted Wasteland | Prime Factorization | Purely mathematical
