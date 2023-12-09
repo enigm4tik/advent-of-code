@@ -1,5 +1,5 @@
 # Advent of Code - 2015
-## Day 6
+## Day 7
 
 def string_is_integer(n):
     """
