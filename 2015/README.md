@@ -14,7 +14,7 @@
         <th><a href="https://adventofcode.com/2015/day/6">06</a></th>
     </tr>
     <tr>
-        <th>07</th>
+        <th><a href="https://adventofcode.com/2015/day/7">07</a></th>
         <th><a href="https://adventofcode.com/2015/day/8">08</a></th>
         <th><a href="https://adventofcode.com/2015/day/9">09</a></th>
         <th>10</th>
@@ -54,6 +54,7 @@ Day | Name | Info | Notes
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day04.py)  | The Ideal Stocking Stuffer | Hash Strings | Pretty slow but it works!
 [Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day05.py)  | Doesn't He Have Intern-Elves For This? | RegEx | Why didn't I use RegEx?
 [Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day06.py)  | Probably a Fire Hazard | XOR | Part 2 was significantly easier than part 1!
+[Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day07.py)  | Some Assembly Required | Bitwise Operations | Part1 == Part 2
 [Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day08.py)  | Matchsticks | Encoding, Decoding | Escaping characters to escape the characters.
 [Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day09.py)  | All in a Single Night | Dijkstra | I used Permutation instead. Slow but it works.
 [Day 12](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12.py)  | JSAbacusFramework.io | Recursion is fun! | Global variables and recursion, maybe - help!
