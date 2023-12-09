@@ -16,7 +16,7 @@ A collection of my solutions to the Advent of Code puzzles.
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2022">2022</a></td>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2023">2023</a></td>
 </tr><tr>
-<th>Stars</th><td>33</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td><td>20</td><td>18</td>
+<th>Stars</th><td>35</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td><td>20</td><td>18</td>
 </tr>
 </table>
 
@@ -304,7 +304,7 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015) (33 ⭐)
+### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015) (35 ⭐)
 
 <table>
     <tr>
@@ -323,7 +323,7 @@ A collection of my solutions to the Advent of Code puzzles.
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day07.py">07</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day08.py">08</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day09.py">09</a></th>
-        <th>10</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day10.py">10</a></th>
         <th>11</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12.py">12</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day13.py">13</a></th>
