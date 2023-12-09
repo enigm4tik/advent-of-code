@@ -19,7 +19,7 @@
         <th><a href="https://adventofcode.com/2023/day/6">06</a></th>
         <th><a href="https://adventofcode.com/2023/day/7">07</a></th>
         <th><a href="https://adventofcode.com/2023/day/8">08</a></th>
-        <th>09</th>
+        <th><a href="https://adventofcode.com/2023/day/9">09</a></th>
         <th>10</th>
     </tr>
     <tr>
@@ -50,10 +50,11 @@
         <th></th>
     </tr>
 </table>
+Calendar has links to the puzzles
 
 ## Days & Notes
 
-Day | Name | Info | Notes
+Solution | Name | Info | Notes
 :--- | :-- | :---  | :----
 [Day 01](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day01.py) | Trebuchet?! | String Manipulation and Parsing | RegEx is your friend
 [Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day02.py) | Cube Conundrum | Class? | I might have overengineered this
@@ -63,3 +64,4 @@ Day | Name | Info | Notes
 [Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.py) | Wait For It | Consider both sides | Binary Search [Implementation in C++](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.cpp)
 [Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day07.py) | Camel Cards | Sets, Conversions | Easier than expected
 [Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day08.py) | Haunted Wasteland | Prime Factorization | Purely mathematical
+[Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day09.py) | Mirage Maintenance | Iteration and Sums | Purely mathematical II
