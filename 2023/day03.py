@@ -3,6 +3,10 @@
 
 import numpy as np
 
+with open('puzzle_input') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+
 def prepare_numpy_array(lines):
     """
     Create a numpy array that is as big as the input. 
@@ -141,22 +145,19 @@ def part2(array, indices_of_symbols):
             gear_ratio += gear_parts[0] * gear_parts[1]
     return gear_ratio
 
-
-with open('puzzle_input') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
-
 array, list_of_symbols = prepare_numpy_array(lines)
 indices_of_symbols = prepare_indices_of_symbols(array, list_of_symbols)
 array2, list_of_symbols = prepare_numpy_array(lines)
-    
+
+part1 = part1(array, indices_of_symbols)
+part2 = part2(array2, indices_of_symbols)
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")
 print(f"{'Advent of Code 2023 - Day 3':^55}")
 print(".       .      *      -        -     *     .     .    .")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
-print(f"Part 1: {part1(array, indices_of_symbols):^55}")
-print(f"Part 2: {part2(array2, indices_of_symbols):^55}")
+print(f"Part 1: {part1:^55}")
+print(f"Part 2: {part2:^55}")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
 print(".       .      *      -        -     *     .     .    .")

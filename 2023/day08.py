@@ -4,6 +4,18 @@
 import itertools
 import math
 
+with open('puzzle_input', 'r') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+
+lookup_map = {}
+for line in lines[2:]:
+    key, value = [x.strip() for x in line.split('=')]
+    val, lue = [x.strip() for x in value[1:-1].split(',')]
+    lookup_map[key] = (val, lue)
+
+instruction = lines[0]
+
 def determine_steps(node_name, instruction, step_map):
     """
     Determine the steps needed to move from solution to
@@ -54,18 +66,6 @@ def prime_factorization(number, primes):
         if math.prod(prime_factors) == number:
             break
     return prime_factors
-
-with open('puzzle_input', 'r') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
-
-lookup_map = {}
-for line in lines[2:]:
-    key, value = [x.strip() for x in line.split('=')]
-    val, lue = [x.strip() for x in value[1:-1].split(',')]
-    lookup_map[key] = (val, lue)
-
-instruction = lines[0]
 
 # Part 1:
 part1 = determine_steps('AAA', instruction, lookup_map)

@@ -1,6 +1,15 @@
 # Advent of Code - 2023
 ## Day 7
 
+with open('puzzle_input', 'r') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+
+NUMBER_TO_CARD_MAPPING = {14: 'A', 13: 'K', 12: 'Q', 11: 'J', 10: 'T',
+          9: '9', 8: '8', 7: '7', 6: '6', 5: '5', 4: '4',
+          3: '3', 2: '2'}
+CARD_TO_NUMBER_MAPPING = {v: k for k, v in NUMBER_TO_CARD_MAPPING.items()}
+
 def card_to_number(hand, part2=False):
     """
     Changes representation of string to a list of numbers
@@ -134,16 +143,6 @@ def find_rank_and_add_up(hands, types):
             result += rank * bid
             rank += 1
     return result
-
-
-with open('puzzle_input', 'r') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
-
-NUMBER_TO_CARD_MAPPING = {14: 'A', 13: 'K', 12: 'Q', 11: 'J', 10: 'T',
-          9: '9', 8: '8', 7: '7', 6: '6', 5: '5', 4: '4',
-          3: '3', 2: '2'}
-CARD_TO_NUMBER_MAPPING = {v: k for k, v in NUMBER_TO_CARD_MAPPING.items()}
 
 hands, types = get_hands_and_types(lines)
 part1 = find_rank_and_add_up(hands, types)

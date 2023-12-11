@@ -1,6 +1,11 @@
 # Advent of Code - 2023
 ## Day 2
 
+with open('puzzle_input') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+    games = create_games(lines)
+
 class Pull: 
     order = 0
     red = 0
@@ -95,11 +100,6 @@ def calculate_power_of_cubes(games):
         power = green * red * blue
         sum_of_power += power   
     return sum_of_power
-
-with open('puzzle_input') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
-    games = create_games(lines)
 
 part1 = find_sum_of_possible_games(games)
 part2 = calculate_power_of_cubes(games)

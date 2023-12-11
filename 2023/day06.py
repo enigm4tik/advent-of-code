@@ -1,6 +1,10 @@
 # Advent of Code - 2023
 ## Day 6
 
+with open('puzzle_input', 'r') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+
 def parse_lines(lines):
     """
     Parse the input into a list of integer tuples
@@ -61,10 +65,6 @@ def part2():
             times += speed + 1
             break
     return times 
-
-with open('puzzle_input', 'r') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")

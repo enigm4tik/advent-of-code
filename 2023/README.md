@@ -20,7 +20,7 @@
         <th><a href="https://adventofcode.com/2023/day/7">07</a></th>
         <th><a href="https://adventofcode.com/2023/day/8">08</a></th>
         <th><a href="https://adventofcode.com/2023/day/9">09</a></th>
-        <th>10</th>
+        <th><a href="https://adventofcode.com/2023/day/10">10</a></th>
     </tr>
     <tr>
         <th>11</th>
@@ -65,3 +65,4 @@ Solution | Name | Info | Notes
 [Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day07.py) | Camel Cards | Sets, Conversions | Easier than expected
 [Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day08.py) | Haunted Wasteland | Prime Factorization | Purely mathematical
 [Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day09.py) | Mirage Maintenance | Iteration and Sums | Purely mathematical II
+[Day 10](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day10.py) | Pipe Maze | Even & Odd | It's 2:43 am, I am tired 

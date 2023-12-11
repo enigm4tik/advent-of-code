@@ -3,6 +3,10 @@
 
 import itertools
 
+with open('puzzle_input', 'r') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+
 def navigate_lists(source_id, list_of_maps):
     """
     Find the corresponding destination id for a given source id
@@ -155,21 +159,20 @@ def all_iterations():
         list_of_seeds = one_iteration(list_of_seeds, mapping)
     return(min(list_of_seeds)[0])
 
-with open('puzzle_input', 'r') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
-
 grouper = itertools.groupby(lines, key= lambda x: x == "") #separate the list by newline
 parsed_lines = [list(j) for i, j in grouper if not i]
 
 seeds = [int(i) for i in parsed_lines[0][0].split(':')[1].split(' ') if not i == ""]
+
+part1 = determine_minimal_location(seeds)
+part2 = all_iterations()
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")
 print(f"{'Advent of Code 2023 - Day 5':^55}")
 print(".       .      *      -        -     *     .     .    .")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
-print(f"Part 1: {determine_minimal_location(seeds):^55}")
-print(f"Part 2: {all_iterations():^55}")
+print(f"Part 1: {part1:^55}")
+print(f"Part 2: {part2:^55}")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
 print(".       .      *      -        -     *     .     .    .")

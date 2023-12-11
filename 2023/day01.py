@@ -1,175 +1,136 @@
 # Advent of Code - 2023
-## Day 5
+## Day 1
 
-import itertools
+import re
 
-def navigate_lists(source_id, list_of_maps):
-    """
-    Find the corresponding destination id for a given source id
-    according to a list of mappings.
-    :param source_id: integer
-    :param list_of_maps: list of strings
-    :return: integer
-    """
-    result = source_id
-    for mapping in list_of_maps[1:]:
-        destination, source, range = [int(i) for i in mapping.split(' ')]
-        if source_id < source: 
-            continue
-        elif source_id >= source and source_id <= source + range: 
-            result = destination + source_id - source
-            return result 
-    return result   
-
-
-def determine_minimal_location(list_of_seeds):
-    """
-    Calculate the minimal location by going through multiple
-    iterations of map comparisons. 
-    :param list_of_seeds: list of integers
-    :return: integer
-    """
-    minimal_location = 10000000000 #arbitrary big number
-    for seed in list_of_seeds:
-        soil = navigate_lists(seed, parsed_lines[1])
-        fertilizer = navigate_lists(soil, parsed_lines[2])
-        water = navigate_lists(fertilizer, parsed_lines[3])
-        light = navigate_lists(water, parsed_lines[4])
-        temperature = navigate_lists(light, parsed_lines[5])
-        humidity = navigate_lists(temperature, parsed_lines[6])
-        location = navigate_lists(humidity, parsed_lines[7])
-        if location < minimal_location:
-            minimal_location = location
-    return minimal_location     
-            
-
-def get_ranges(mappings):
-    """
-    Create a dictionary for all mappings in a map section (input).
-    :param mappings: list of strings
-    :return: dictionary {destination: (source_start, source_end)}
-    """
-    dictionary = {}
-    for mapping in mappings[1:]:
-        destination, source, range_ = [int(i) for i in mapping.split(' ')]
-        dictionary[destination] = (source, source + range_)
-    return dictionary
-
-
-def one_iteration(list_of_seeds, map_to_check):
-    """
-    Figuring out the ranges of sources to map them to ranges of destinations.
-    There are 4 different cases: 
-    1) the source is completely enveloped in the mapping
-    2) the source has a left overlap
-    3) the source has a right overlap
-    4) the source has an overlap on each side 
-    :param list_of_seeds: list of tuples (start_of_range, end_of_range)
-    :param map_to_check: dictionary {destination: (source_start, source_end)}
-    :result: list of tuples
-    """
-    seeds_to_process = []
-    seen_seeds = []
-    while list_of_seeds:
-        seed = list_of_seeds[0]
-        if not seed in seen_seeds:
-            seen_seeds.append(seed)
-        else:
-            seen_seeds.remove(seed)
-            list_of_seeds.remove(seed)
-            continue
-        seed_start, seed_end = seed
-        for mapping in map_to_check:        
-            map_start, map_end = map_to_check[mapping]
-            # no overhang
-            if seed_start >= map_start and seed_end < map_end: 
-                new_seed = (seed_start - map_start + mapping-1, seed_end - map_start + mapping)                         
-                if not new_seed in seeds_to_process:
-                     seeds_to_process.append(new_seed)
-                list_of_seeds.remove(seed)
-                seen_seeds.remove(seed)
-                break
-            # left overhang
-            if seed_start < map_start and seed_end < map_end and seed_end > map_start:
-                new_seed = (seed_start, map_start-1)
-                if not new_seed in list_of_seeds:
-                    list_of_seeds.append(new_seed)
-                list_of_seeds.remove(seed)
-                new_seed = (mapping, seed_end - map_start + mapping)
-                if not new_seed in seeds_to_process:
-                     seeds_to_process.append(new_seed)
-                seen_seeds.remove(seed)
-                break
-            #right overhang
-            if seed_start > map_start and seed_end > map_end and seed_start < map_end:
-                list_of_seeds.remove(seed)
-                new_seed = (map_end+1, seed_end)
-                if not new_seed in list_of_seeds:
-                    list_of_seeds.append(new_seed)
-                new_seed = (seed_start - map_start + mapping, map_end -map_start + mapping)
-                if not new_seed in seeds_to_process:
-                    seeds_to_process.append(new_seed)
-                seen_seeds.remove(seed)
-                break
-            #overhangs on both sides
-            if seed_start < map_start and seed_end > map_end:
-                list_of_seeds.remove(seed)
-                new_seed = (seed_start, map_start-1)
-                if not new_seed in list_of_seeds:
-                    list_of_seeds.append(new_seed)
-                new_seed = (map_end+1, seed_end)
-                if not new_seed in list_of_seeds:
-                    list_of_seeds.append(new_seed)
-                new_seed = (mapping, seed_end-seed_start+mapping)
-                if not new_seed in seeds_to_process:
-                    seeds_to_process.append(new_seed)
-                seen_seeds.remove(seed)
-                break
-        if seed in seen_seeds:
-            for seed in seen_seeds:
-                seeds_to_process.append(seed)
-    return list(set(seeds_to_process))
-
-
-def all_iterations():
-    """
-    Iterating through all mappings to find the smallest location.
-    :return: integer
-    """
-    list_of_seeds = []
-    for i in range(0, len(seeds), 2):
-        start = seeds[i]
-        seed_range = seeds[i+1]
-        list_of_seeds.append((start, start+seed_range-1))
-
-    seed_to_soil = get_ranges(parsed_lines[1])
-    soil_to_fertilizer = get_ranges(parsed_lines[2])
-    fertilizer_to_water = get_ranges(parsed_lines[3])
-    water_to_light = get_ranges(parsed_lines[4])
-    light_to_temperature = get_ranges(parsed_lines[5])
-    temperature_to_humidity = get_ranges(parsed_lines[6])
-    humidity_to_location = get_ranges(parsed_lines[7])
-    list_of_maps = [seed_to_soil, soil_to_fertilizer, fertilizer_to_water, water_to_light, light_to_temperature, temperature_to_humidity, humidity_to_location]
-
-    for mapping in list_of_maps:
-        list_of_seeds = one_iteration(list_of_seeds, mapping)
-    return(min(list_of_seeds)[0])
-
-with open('puzzle_input', 'r') as file:
+with open('test_input', 'r') as file:
     lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
 
-grouper = itertools.groupby(lines, key= lambda x: x == "") #separate the list by newline
-parsed_lines = [list(j) for i, j in grouper if not i]
+# Preparation of containers
+CONVERSION = {
+    'one': 1, 
+    'two': 2, 
+    'three': 3, 
+    'four': 4,
+    'five': 5,
+    'six': 6, 
+    'seven': 7, 
+    'eight': 8,
+    'nine': 9
+}
 
-seeds = [int(i) for i in parsed_lines[0][0].split(':')[1].split(' ') if not i == ""]
+# Part 1
+
+def find_digit_part1(line):
+    """
+    Find a digit by checking if it is int()able.
+    :param line: string containing numbers and letetrs
+    :return: found digit as string
+    """
+    for character in line: 
+        try:
+            digit = int(character)
+            return character
+        except ValueError:
+            continue
+
+def part1(lines):
+    """
+    Executing the finding of digits for a list of strings from the start, 
+    then from the end.
+    Adding both digits together to create a 2-digit number 
+    and then add them up for all lines.
+    :param lines: a list of strings
+    :return: sum of all numbers found
+    """
+    sum = 0
+
+    for line in lines: 
+        first_digit = find_digit_part1(line)
+        second_digit = find_digit_part1(line[::-1])
+        number = first_digit + second_digit
+        sum += int(number)
+    return sum
+
+# Part 2
+
+def find_substring(line):
+    """
+    Find all digits that are written out in a string.
+    :param line: string containing letters and numbers
+    :return: list of tuples (position of match, match)
+    """
+    found_digits = []
+    for written_digit in written_digits:
+        if written_digit in line:
+            for match in re.finditer(written_digit, line):
+                found_digits.append((match.start(), written_digit))
+    return found_digits
+
+def find_digit_part2(line):
+    """
+    Find all digits in a string.
+    :param line: string containing letters and numbers
+    :return: list of tuples (position of match, match)
+    """
+    found_numbers=[]
+    for actual_digit in actual_digits:
+        if actual_digit in line:
+            for match in re.finditer(actual_digit, line):
+                found_numbers.append((match.start(), actual_digit))
+    return found_numbers
+
+
+def find_most_left_and_most_right_digit(line):
+    """
+    Find the most left and most right digit found in a string.
+    :param line: string
+    :return: return tuple of two digits (either word or number)
+    """
+    substrings = find_substring(line)
+    numbers = find_digit_part2(line)
+    digits = substrings + numbers
+    sorted_digits = sorted(digits)
+    return sorted_digits[0][1], sorted_digits[-1][1]
+
+def convert_word_to_digit(digit):
+    """
+    Converts strings that represent a digit to a digit.
+    :param digit: a digit representation either word or number
+    :return: string
+    """
+    try: 
+        result = int(digit)
+    except ValueError:
+        result = CONVERSION[digit]
+    return str(result)
+
+
+def part2(lines):
+    """
+    Execute part two: find digits and convert them to numbers.
+    Then add the numbers up - digits can be words or numbers.
+    :param: list of strings
+    :return: sum of found numbers
+    """
+    sum = 0
+    for line in lines:
+        first, last = find_most_left_and_most_right_digit(line)
+        first_digit = convert_word_to_digit(first)
+        second_digit = convert_word_to_digit(last)
+        number = first_digit + second_digit
+        sum += int(number)
+    return sum
+
+written_digits = [digit for digit, number in CONVERSION.items()]
+actual_digits = [str(x+1) for x in range(9)]
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")
-print(f"{'Advent of Code 2023 - Day 5':^55}")
+print(f"{'Advent of Code 2023 - Day 1':^55}")
 print(".       .      *      -        -     *     .     .    .")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
-print(f"Part 1: {determine_minimal_location(seeds):^55}")
-print(f"Part 2: {all_iterations():^55}")
+print(f"Part 1: {part1(lines):^55}")
+print(f"Part 2: {part2(lines):^55}")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
 print(".       .      *      -        -     *     .     .    .")

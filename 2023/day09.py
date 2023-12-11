@@ -1,6 +1,15 @@
 # Advent of Code - 2023
 ## Day 9
 
+with open('puzzle_input', 'r') as file:
+    lines = file.readlines()
+    lines = [line.rstrip() for line in lines]
+
+readings = []
+for line in lines: 
+    readings.append([int(x) for x in line.split(' ')])
+
+
 def create_new_row(row, collected_numbers=[], first=False):
     """
     Determine the distance between two integers in a list
@@ -36,14 +45,6 @@ def sum_of_minuses(row):
         current_difference = row[-1-i] - current_difference
     return current_difference
 
-with open('puzzle_input', 'r') as file:
-    lines = file.readlines()
-    lines = [line.rstrip() for line in lines]
-
-readings = []
-for line in lines: 
-    readings.append([int(x) for x in line.split(' ')])
-
 part1 = 0
 for reading in readings:
     res = create_new_row(reading, [])
@@ -56,7 +57,7 @@ for reading in readings:
 
 print("- -      -     -   *  -    -     -      -  *  *  - -   ")
 print("*   -    .   .    .       *     .  .   .    *       -  ")
-print(f"{'Advent of Code 2023 - Day 8':^55}")
+print(f"{'Advent of Code 2023 - Day 9':^55}")
 print(".       .      *      -        -     *     .     .    .")
 print("    -      .    -  *    -    -    *    .  .  .    *   -")
 print(f"Part 1: {part1:^55}")
