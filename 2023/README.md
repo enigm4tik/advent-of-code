@@ -25,7 +25,7 @@
     <tr>
         <th><a href="https://adventofcode.com/2023/day/11">11</a></th>
         <th>12</th>
-        <th>13</th>
+        <th><a href="https://adventofcode.com/2023/day/13">13</a></th>
         <th><a href="https://adventofcode.com/2023/day/14">14</a></th>
         <th><a href="https://adventofcode.com/2023/day/15">15</a></th>
         <th>16</th>
@@ -67,5 +67,8 @@ Solution | Name | Info | Notes
 [Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day09.py) | Mirage Maintenance | Iteration and Sums | Purely mathematical II
 [Day 10](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day10.py) | Pipe Maze | Even & Odd | It's 2:43 am, I am tired 
 [Day 11](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day11.py) | Cosmic Expansion | Manhattan Distances | Appearances can be deceiving
-[Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day14.py) | Point of Incidence | Modulo Operation | I am exhausted after day 12 and 13
-[Day 154](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day14.py) | Parabolic Reflector Dish | Hash Maps (Dictionaries) Galore | Very fun and quick day
+[Day 13*](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day13.py) | Point of Incidence | Recursion | Clever Representation
+[Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day14.py) | Parabolic Reflector Dish | Modulo Operation | I am exhausted after day 12 and 13
+[Day 15](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day15.py) | Lens Library | Hash Maps (Dictionaries) Galore | Very fun and quick day
+
+*Days done after their respective date.
