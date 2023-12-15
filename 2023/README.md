@@ -26,7 +26,7 @@
         <th><a href="https://adventofcode.com/2023/day/11">11</a></th>
         <th>12</th>
         <th>13</th>
-        <th>14</th>
+        <th><a href="https://adventofcode.com/2023/day/11">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
@@ -67,3 +67,4 @@ Solution | Name | Info | Notes
 [Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day09.py) | Mirage Maintenance | Iteration and Sums | Purely mathematical II
 [Day 10](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day10.py) | Pipe Maze | Even & Odd | It's 2:43 am, I am tired 
 [Day 11](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day11.py) | Cosmic Expansion | Manhattan Distances | Appearances can be deceiving
+[Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2023/day14.py) | Point of Incidence | Modulo Operation | I am exhausted after day 12 and 13
