@@ -1,58 +1,101 @@
 # Advent of Code - 2023
 ## Day 14
 
-# This was a lot of work, I'll refactor it if I feel like it.
-# It works, that's all I needed after day 12 and 13 ....
-
 with open('input') as file:
     lines = file.readlines()
     lines = [line.rstrip() for line in lines]
 
-def move_north(werte, blocker):
-    seen = []
-    for wert in werte:
-        list_of_blockers = [i for i in blocker if i < wert]
-        if not list_of_blockers: 
+def move_one_column_north(values, blockers):
+    """
+    Move values north until they hit a blocker or the end
+    :param values: list of integers
+    :param blocker: list of integers
+    return: list of integers
+    """
+    evaluated_values = []
+    for value in values:
+        current_blockers = [i for i in blockers if i < value]
+        if not current_blockers: 
             max_blocker = 0
         else: 
-            if seen: 
-                max_blocker = max(seen[-1], *list_of_blockers)
+            if evaluated_values: 
+                max_blocker = max(evaluated_values[-1], *current_blockers)
             else: 
-                max_blocker = max(list_of_blockers)
-        start = min([wert, max_blocker])
-        next = min([i for i in range(start, wert+1) if i not in seen and i not in blocker])
-        seen.append(next)
-    return seen
+                max_blocker = max(current_blockers)
+        start = min([value, max_blocker])
+        evaluated_value = min([i for i in range(start, value + 1) 
+                                    if i not in evaluated_values and i not in blockers])
+        evaluated_values.append(evaluated_value)
+    return evaluated_values
 
-def rotate(circles, length=9):
-    circles = [(y, length-x) for x, y in circles]
-    return sorted(circles)
 
-def move_north_rotate(circles, squares, length):
+def rotate(coordinates, length=9):
+    """
+    Rotate coordinates in a 2D matrix clock-wise:
+    old y values become new x values 
+    new y values are calulated by length - old x values
+    :param coordinates: list of tuples (x, y)
+    :return: list of tuples (x, y)
+    """
+    coordinates = [(y, length-x) for x, y in coordinates]
+    return sorted(coordinates)
+
+
+def move_one_step(circles, squares, columns):
+    """
+    Use the coordinates of circles and squares to determine 
+    the evaluated coordinates. 
+    Circles move until they hit a square or the bounds of the matrix.
+    :param circles: list of tuples (x, y)
+    :param squares: list of tuples (x, y)
+    :param columns: integer, amount of columns
+    """
     new_circles = []
-    for i in range(length):
-        werte = [j[0] for j in circles if j[1] == i]
+    for i in range(columns):
+        values = [j[0] for j in circles if j[1] == i]
         blocker = [j[0] for j in squares if j[1] == i]
-        north = move_north(werte, blocker)
+        north = move_one_column_north(values, blocker)
         for k in north:
             new_circles.append((k, i))
     return new_circles, squares 
 
-def rotate_after(circles, squares, length):
-    circles = rotate(circles, length)
-    squares = rotate(squares, length)
+
+def rotate_after_step(circles, squares, columns):
+    """
+    Rotate circles and squares for the next step.
+    :param circles: list of tuples (x, y)
+    :param squares: list of tuples (x, y)
+    :param columns: integer, amount of columns
+    :return: tuple (list of tuples, list of tuples)
+    """
+    adjusted_length = columns - 1
+    circles = rotate(circles, adjusted_length)
+    squares = rotate(squares, adjusted_length)
     return circles, squares
 
-def get_north_support_beams(list_of_stones):
+
+def get_north_support_beams(list_of_stones, rows):
+    """
+    Calculate the load on north support beams: 
+    from top to bottom in 2D matrix decrease the value, 
+    amount of circles in each row * value
+    example:
+    O...O < row 1 (value = rows) -> 20
+    ...O. < row 2 (value = rows -1) -> 19
+    -> sum up all values 
+    :param list_of_stones: list of tuples (x, y)
+    :param rows: amount of rows
+    :return: integer sum of load for each row
+    """
     list_of_stones = [i for i, j in list_of_stones]
-    didi = {}
+    temporary_dictionary = {}
     for i in list_of_stones:
         try: 
-            didi[10-i] += 1
+            temporary_dictionary[rows-i] += 1
         except KeyError: 
-            didi[10-i] = 1
+            temporary_dictionary[rows-i] = 1
     result = 0
-    for key, value in didi.items():
+    for key, value in temporary_dictionary.items():
         result += key * value 
     return result
 
@@ -65,35 +108,39 @@ for x in range(len(lines)):
         if lines[x][y] == "#":
             squares.append((x, y))
 
-
-first_circle = circles[::]
 seen_circles = [circles]
-seen_squares = []
 big_number = 1000000000
 loop_found = False
 i = 0
-loop_index = 0
 while not loop_found and i < big_number: 
     for j in range(4):
-        circles, squares = move_north_rotate(circles, squares, len(lines[0]))
-        circles, squares = rotate_after(circles, squares, len(lines[0])-1)
+        circles, squares = move_one_step(circles, squares, len(lines[0]))
+        if i == 0 and j == 0:
+            #part 1: move once north 
+            part1 = get_north_support_beams(circles, len(lines))
+        circles, squares = rotate_after_step(circles, squares, len(lines[0]))
     if not circles in seen_circles:
         seen_circles.append(circles)
     else: 
         repeater = seen_circles.index(circles)
-        # cycle_length = print(f"{i - seen_circles.index(circles)}")
         loop_found = True
         cycle_length = i-seen_circles.index(circles)
         first_repeat = i
         loop_found = True
     i+= 1
 
-
 for i in range(1, 2000):
     bla = (big_number - i*(repeater+1)) % cycle_length
-    print(bla)
     if bla != 0:
         break
+part2 = get_north_support_beams(seen_circles[bla + repeater +1], len(lines))
 
-result = get_north_support_beams(seen_circles[bla + repeater +1])
-print(result)
+print("- -      -     -   *  -    -     -      -  *  *  - -   ")
+print("*   -    .   .    .       *     .  .   .    *       -  ")
+print(f"{'Advent of Code 2023 - Day 14':^55}")
+print(".       .      *      -        -     *     .     .    .")
+print("    -      .    -  *    -    -    *    .  .  .    *   -")
+print(f"Part 1: {part1:^55}")
+print(f"Part 2: {part2:^55}")
+print("    -      .    -  *    -    -    *    .  .  .    *   -")
+print(".       .      *      -        -     *     .     .    .")
