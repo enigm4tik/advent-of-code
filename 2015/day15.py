@@ -65,27 +65,30 @@ def determine_possible_solution(iteration):
     #     return False
     return True
 
-
-def calculate_score_for_solution(iteration, ingredients):
+def calculate_score_for_solution(iteration, ingredients, calories=False):
     a, b, c, d = iteration
-    # a, b = iteration
+    manual_list_of_iterations = [
+        [a, b, c, d], [a, b, d, c], [a, c, b, d], [a, c, d, b], [a, d, c, b], [a, d, b, c],
+        [b, a, c, d], [b, a, d, c], [b, c, d, a], [b, c, a, d], [b, d, a, c], [b, d, c, a],
+        [c, a, b, d], [c, a, d, b], [c, b, d, a], [c, b, a, d], [c, d, a, b], [c, d, b, a],
+        [d, a, b, c], [d, a, c, b], [d, b, c, a], [d, b, a, c], [d, c, a, b], [d, c, b, a]
+    ]
     result = []
     frosting = ingredients[0]
     candy = ingredients[1]
     butterscotch = ingredients[2]
     sugar = ingredients[3]
-    for i in range(4):
-        # a, b = b, a
-        a, b, c, d = b, c, d, a
-        # calculated_calories =  a * frosting.calories + b * candy.calories + c * butterscotch.calories + d * sugar.calories
-        # if not calculated_calories == 500:
-        #     result.append(0)
-        #     continue
-        # else: 
+    for manual_iteration in manual_list_of_iterations:
+        a, b, c, d = manual_iteration
         calculated_capacity = a * frosting.capacity + b * candy.capacity + c * butterscotch.capacity + d * sugar.capacity
         calculated_durability = a * frosting.durability + b * candy.durability + c * butterscotch.durability + d * sugar.durability
         calculated_flavor = a * frosting.flavor + b * candy.flavor + c * butterscotch.flavor + d * sugar.flavor
         calculated_texture = a * frosting.texture + b * candy.texture + c * butterscotch.texture + d * sugar.texture
+        if calories:
+            calculated_calories = a * frosting.calories + b * candy.calories + c * butterscotch.calories + d * sugar.calories
+            if calculated_calories != 500:
+                result.append(0)
+                continue
         if any(x < 0 for x in [calculated_flavor, calculated_capacity, calculated_texture, calculated_durability]):
             result.append(0)
             continue
@@ -96,10 +99,19 @@ def calculate_score_for_solution(iteration, ingredients):
     return max(result)
 
 best_score = 0
-
 for result in results: 
     new_score = calculate_score_for_solution(result, lines)
     if new_score > best_score:    
         best_score = new_score
 
+print("Part 1: ", best_score)
+
+## I've revisited this code a year later and only made it work
+## The better implementation is in day15.cpp 
+best_score = 0
+for result in results: 
+    new_score = calculate_score_for_solution(result, lines, True)
+    if new_score > best_score:    
+        best_score = new_score
+print("Part 2: ", best_score)
 print(best_score)

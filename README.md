@@ -11,19 +11,27 @@ A collection of my solutions to the Advent of Code puzzles.
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2017">2017</a></td>
 <td>2018</td>
 <td>2019</td>
+</tr>
+<tr>
+<th>Stars</th><td>38</td><td>31</td><td>11</td><td></td><td></td>
+</tr>
+<tr>
+<th>Years</th>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2020">2020</a></td>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2021">2021</a></td>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2022">2022</a></td>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2023">2023</a></td>
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2024">2024</a></td>
-</tr><tr>
-<th>Stars</th><td>37</td><td>31</td><td>11</td><td></td><td></td><td>13</td><td>26</td><td>20</td><td>30</td><td>2</td>
+</tr>
+<tr>
+<th>Stars</th><td>13</td><td>26</td><td>20</td><td>30</td><td>2</td>
 </tr>
 </table>
 
 ## Calendar View
 
-### [Advent of Code 2024](https://github.com/enigm4tik/advent-of-code/tree/main/2024) (2 ⭐)
+### [
+    Advent of Code 2024](https://github.com/enigm4tik/advent-of-code/tree/main/2024) (2 ⭐)
 
 <table>
 <tr>
@@ -358,7 +366,7 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015) (37 ⭐)
+### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015) (38 ⭐)
 
 <table>
     <tr>
@@ -384,7 +392,8 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14.py">14</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.py">15</a>*</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.py">1</a> 
+        <a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.cpp">5</a>/th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16.py">16</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17.py">17</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18.py">18</a></th>

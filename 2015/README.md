@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <th><a href="https://adventofcode.com/2015/day/14">14</a></th>
-        <th><a href="https://adventofcode.com/2015/day/15">15</a>*</th>
+        <th><a href="https://adventofcode.com/2015/day/15">15</a></th>
         <th><a href="https://adventofcode.com/2015/day/16">16</a></th>
         <th><a href="https://adventofcode.com/2015/day/17">17</a></th>
         <th><a href="https://adventofcode.com/2015/day/18">18</a></th>
@@ -62,7 +62,8 @@ Day | Name | Info | Notes
 [Day 12](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day12.py)  | JSAbacusFramework.io | Recursion is fun! | Global variables and recursion, maybe - help!
 [Day 13](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day13.py)  | Knights of the Dinner Table | Permutation with a twist | There is only so many unique combinations
 [Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14.py)  | Reindeer Olympics | Off by one Error ;__; | Classes are cool
-[Day 15](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.py)  | Science for Hungry People | Combination with replacements | Part 2 SHOULD work but it does not
+[Day 15](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.py)  | Science for Hungry People | Combination with replacements | Part 2 added a year later (what was I doing...)
+[Day 15](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.cpp)  | Science for Hungry People | Brute Forcing sums | Cpp implementation better than in python
 [Day 16](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16.py)  | Aunt Sue | Updating a class using __dict__ | Easier than expected.
 [Day 17](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17.py)  | No Such Thing as Too Much | Combinations | My finest work, prepared data well
 [Day 18](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18.py)  | Like a GIF For Your Yard | Numpy Arrays | Game of life but different
