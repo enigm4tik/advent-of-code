@@ -13,7 +13,7 @@ A collection of my solutions to the Advent of Code puzzles.
 <td>2019</td>
 </tr>
 <tr>
-<th>Stars</th><td>38</td><td>31</td><td>11</td><td></td><td></td>
+<th>Stars</th><td>39</td><td>31</td><td>11</td><td></td><td></td>
 </tr>
 <tr>
 <th>Years</th>
@@ -366,7 +366,7 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015) (38 ⭐)
+### [Advent of Code 2015](https://github.com/enigm4tik/advent-of-code/tree/main/2015) (39 ⭐)
 
 <table>
     <tr>
@@ -397,7 +397,7 @@ A collection of my solutions to the Advent of Code puzzles.
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16.py">16</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17.py">17</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18.py">18</a></th>
-        <th>19</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day19.cpp">19</a></th>
         <th>20</th>
     </tr>
     <tr>
