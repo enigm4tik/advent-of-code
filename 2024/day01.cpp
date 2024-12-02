@@ -1,12 +1,16 @@
-#include <iostream>
-#include <fstream>
+/*
+ * Advent of Code - 2024
+ * Day 1
+ */ 
+
 #include "aoc_utility.h"
-#include <algorithm>
 
-using namespace std;
-
-static void part1(vector<int> &firstList, vector<int> &secondList)
+static void part1(std::vector<int> &firstList, std::vector<int> &secondList)
 {
+	// sort lists
+	sort(firstList.begin(), firstList.end());
+	sort(secondList.begin(), secondList.end());
+
 	int sumofdistances = 0;
 
 	for (int i = 0; i < firstList.size(); i++)
@@ -19,10 +23,10 @@ static void part1(vector<int> &firstList, vector<int> &secondList)
 		sumofdistances += result;
 	}
 
-	cout << "Part 1: " << sumofdistances << endl;
+	std::cout << "Part 1: " << sumofdistances << std::endl;
 }
 
-static void part2(vector<int> &firstList, vector<int> &secondList)
+static void part2(std::vector<int> &firstList, std::vector<int> &secondList)
 {
 	int similarity = 0;
 	for (int i = 0; i < firstList.size(); i++)
@@ -30,36 +34,27 @@ static void part2(vector<int> &firstList, vector<int> &secondList)
 		int multiplier = count(secondList.begin(), secondList.end(), firstList[i]);	
 		similarity += firstList[i] * multiplier;
 	}
-	cout << "Part 2: " << similarity << endl;
+	std::cout << "Part 2: " << similarity << std::endl;
 }
 
 int main()
 {
-	vector<string> lines = getLines("puzzle.txt");
-	vector<int> firstList;
-	vector<int> secondList;
-	string delimiter = "   ";
+	std::vector<std::string> lines = getLines("puzzle.txt");
+	std::vector<int> firstList;
+	std::vector<int> secondList;
+	std::string delimiter = "   ";
 	int SIZE = 5;
 
-	for (string line : lines)
+	for (std::string line : lines)
 	{
-		firstList.push_back(stoi(line.substr(0, SIZE)));
+		firstList.push_back(std::stoi(line.substr(0, SIZE)));
 		auto second = line.find_first_not_of(' ', SIZE+1);
 		secondList.push_back(stoi(line.substr(second, SIZE)));
 	}
 
-	// sort lists
-	// for future reference the order is not important in part 2
-	// so I can simply sort it outside and pass as reference
-	sort(firstList.begin(), firstList.end());
-	sort(secondList.begin(), secondList.end());
-
-	cout << "- -      -     -   *  -    -     -      -  *  *  - -   " << endl;
-	cout << "*   -    .   .    .       *     .  .   .    *       -  " << endl;
-	cout << "Advent of Code 2024 - Day 1" << endl;
+	preResults(1);
 	part1(firstList, secondList);
 	part2(firstList, secondList);
-	cout << "    -      .    -  *    -    -    *    .  .  .    *   -" << endl;
-	cout << ".       .      *      -        -     *     .     .    ." << endl;
+	afterResults();
 	return 0;
 }

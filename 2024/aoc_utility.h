@@ -3,6 +3,14 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-using namespace std;
+#include <set>
+#include <queue>
+#include <list>
+#include <sstream>
+#include <algorithm>
 
-vector<string> getLines(string filename);
+std::vector<std::string> getLines(std::string filename);
+std::vector<std::vector<int>> splitToInt(std::vector<std::string>& puzzleinput, char delimiter);
+
+void preResults(int); // ASCII Snow + Header
+void afterResults(); // ASCII Snow

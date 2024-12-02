@@ -11,10 +11,10 @@
         <th></th>
         <th></th>
         <th></th>
-        <th><a href="https://adventofcode.com/2023/day/1">01</a></th>
+        <th><a href="https://adventofcode.com/2024/day/1">01</a></th>
     </tr>
     <tr>
-        <th>02</th>
+        <th><a href="https://adventofcode.com/2024/day/2">02</a></th>
 	<th>03</th>
 	<th>04</th>
 	<th>05</th>
@@ -56,4 +56,5 @@ Calendar has links to the puzzles on adventofcode.com
 
 Solution | Name | Info | Notes
 :--- | :-- | :---  | :----
-[Day 01](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day01.cpp) | Historian Hysteria | String Manipulation and Parsing | <algorithm> is your friend
+[Day 01](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day01.cpp) | Historian Hysteria | String Manipulation and Parsing | < algorithm > is your friend
+[Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day02.cpp) | Red-Nosed Reports | Iterating over Vectors | make sure ends are correctly defined
