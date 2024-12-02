@@ -30,8 +30,7 @@ A collection of my solutions to the Advent of Code puzzles.
 
 ## Calendar View
 
-### [
-    Advent of Code 2024](https://github.com/enigm4tik/advent-of-code/tree/main/2024) (2 ⭐)
+### [Advent of Code 2024](https://github.com/enigm4tik/advent-of-code/tree/main/2024) (2 ⭐)
 
 <table>
 <tr>
