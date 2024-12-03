@@ -1,7 +1,7 @@
 /*
  * Advent of Code - 2024
  * Day 1
- */ 
+ */
 
 #include "aoc_utility.h"
 
@@ -37,7 +37,7 @@ static void part2(std::vector<int> &firstList, std::vector<int> &secondList)
 	std::cout << "Part 2: " << similarity << std::endl;
 }
 
-int main()
+int main1()
 {
 	std::vector<std::string> lines = getLines("puzzle.txt");
 	std::vector<int> firstList;
@@ -52,7 +52,7 @@ int main()
 		secondList.push_back(stoi(line.substr(second, SIZE)));
 	}
 
-	preResults(1);
+	preResults(1, 2024);
 	part1(firstList, secondList);
 	part2(firstList, secondList);
 	afterResults();

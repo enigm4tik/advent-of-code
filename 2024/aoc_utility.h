@@ -8,6 +8,7 @@
 #include <list>
 #include <sstream>
 #include <algorithm>
+#include <unordered_map>
 
 std::vector<std::string> getLines(std::string filename);
 
@@ -19,5 +20,5 @@ std::vector<std::vector<std::string>> splitToString(std::vector<std::string>& pu
 
 std::vector<int> findSubstringPositions(std::string& line, std::string substring);
 
-void preResults(int); // ASCII Snow + Header
+void preResults(int, int); // ASCII Snow + Header
 void afterResults(); // ASCII Snow

@@ -1,10 +1,10 @@
 #include "aoc_utility.h"
 
-void preResults(int day)
+void preResults(int day, int year)
 {
     std::cout << "- -      -     -   *  -    -     -      -  *  *  - -   " << std::endl;
     std::cout << "*   -    .   .    .       *     .  .   .    *       -  " << std::endl;
-    std::cout << "Advent of Code 2024 - Day " << day << std::endl;
+    std::cout << "Advent of Code " << year << " - Day " << day << std::endl;
 }
 void afterResults()
 {

@@ -64,11 +64,11 @@ int part2(std::string lines)
 	return part2Sum;
 }
 
-int main()
+int main3()
 {
 	std::vector<std::string> lines = getLines("puzzle.txt");
 	
-	preResults(3);
+	preResults(3, 2024);
 	std::cout << "Part 1: " << part1(lines[0]) << std::endl;
 	std::cout << "Part 2: " << part2(lines[0]) << std::endl;
 	afterResults();

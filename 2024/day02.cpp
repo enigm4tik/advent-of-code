@@ -1,7 +1,7 @@
 /*
  * Advent of Code - 2024
  * Day 2
- */ 
+ */
 
 #include "aoc_utility.h"
 
@@ -66,6 +66,7 @@ bool checkLevels(std::vector<int>& report)
 	}
 	return true;
 }
+
 std::set<int> checkLevels(std::vector<int>& report, bool)
 {
 	std::set<int> badIndices;
@@ -156,15 +157,14 @@ void part2(std::vector<std::vector<int>> &reports)
 	std::cout << "Part 2: " << safeReports << std::endl;
 }
 
-int main()
+int main2()
 {
 	std::vector<std::string> lines = getLines("puzzle.txt");
-
 	std::vector <std::vector<int>> reports;
 
 	reports = splitToInt(lines, ' ');
 
-	preResults(2);
+	preResults(2, 2024);
 	part1(reports);
 	part2(reports);
 	afterResults();
