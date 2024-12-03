@@ -24,13 +24,13 @@ A collection of my solutions to the Advent of Code puzzles.
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2024">2024</a></td>
 </tr>
 <tr>
-<th>Stars</th><td>13</td><td>26</td><td>20</td><td>30</td><td>4</td>
+<th>Stars</th><td>13</td><td>26</td><td>20</td><td>30</td><td>6</td>
 </tr>
 </table>
 
 ## Calendar View
 
-### [Advent of Code 2024](https://github.com/enigm4tik/advent-of-code/tree/main/2024) (4 ⭐)
+### [Advent of Code 2024](https://github.com/enigm4tik/advent-of-code/tree/main/2024) (6 ⭐)
 
 <table>
 <tr>
@@ -46,8 +46,8 @@ A collection of my solutions to the Advent of Code puzzles.
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2024/day01.cpp">01</a></th>
     </tr>
     <tr>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2024/day02.cpp">02</a></th>
-	<th>03</th>
+    <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2024/day02.cpp">02</a></th>
+	<th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2024/day03.cpp">03</a></th>
 	<th>04</th>
 	<th>05</th>
 	<th>06</th>
