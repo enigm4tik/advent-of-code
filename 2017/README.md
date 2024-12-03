@@ -9,21 +9,21 @@
         <th></th>
         <th></th>
         <th></th>
-        <th>01</th>
+        <th><a href="https://adventofcode.com/2017/day/1">01</a></th>
         <th><a href="https://adventofcode.com/2017/day/2">02</a></th>
-        <th>03</th>
+        <th><a href="https://adventofcode.com/2017/day/3">03</a></th>
     </tr>
     <tr>
         <th><a href="https://adventofcode.com/2017/day/4">04</a></th>
         <th><a href="https://adventofcode.com/2017/day/5">05</a></th>
         <th><a href="https://adventofcode.com/2017/day/6">06</a></th>
-        <th>07</th>
+        <th><a href="https://adventofcode.com/2017/day/7">07</a></th>
         <th><a href="https://adventofcode.com/2017/day/8">08</a></th>
-        <th>09</th>
-        <th>10</th>
+        <th><a href="https://adventofcode.com/2017/day/9">09</a></th>
+        <th><a href="https://adventofcode.com/2017/day/10">10</a></th>
     </tr>
     <tr>
-        <th>11</th>
+        <th><a href="https://adventofcode.com/2017/day/11">11</a></th>
         <th>12</th>
         <th>13</th>
         <th>14</th>
@@ -55,8 +55,14 @@
 
 Day | Name | Info | Notes
 :--- | :-- | :---  | :----
+[01](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day01.py)  | Inverse Captcha | List lookup | Basic Maths
 [02](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02.py)  | Corruption Checksum | Basic Maths | Easy start :D
+[03](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day03.py)  | Spiral Memory | Tiresome numpy exercise | Easy but tedious
 [04](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day04.py)  | High-Entropy Passphrases | My favorite, permutations :D | I enjoyed this
 [05](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05.py)  | A Maze of Twisty Trampolines, All Alike | Takes a long time | Remember to copy the list
 [06](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day06.py)  | Memory Reallocation | I learned list wrap-around | Part 2 was easy :D
+[07](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day07.py)  | I Recursive Circus | Very verbose | -
 [08](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day08.py)  | I Heard You Like Registers | Jump instructions | Good preparation
+[09](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day09.py)  | Stream Processing | String manipulation | Very fun
+[10](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day10.py)  | Knot Hash | Hashing Algorithm | Fun exercise
+[11](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day11.py)  | Hex Ed | This is probably a graph | I did not handle it as a graph (I think)

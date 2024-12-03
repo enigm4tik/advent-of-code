@@ -279,21 +279,21 @@ A collection of my solutions to the Advent of Code puzzles.
         <th></th>
         <th></th>
         <th></th>
-        <th>01</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day01.py">01</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day02.py">02</a></th>
-        <th>03</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day03.py">03</a></th>
     </tr>
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day04.py">04</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day05.py">05</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day06.py">06</a></th>
-        <th>07</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day07.py">07</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day08.py">08</a></th>
-        <th>09</th>
-        <th>10</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day09.py">09</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day10.py">10</a></th>
     </tr>
     <tr>
-        <th>11</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day11.py">11</a></th>
         <th>12</th>
         <th>13</th>
         <th>14</th>

@@ -1,7 +1,6 @@
 import numpy as np
 
-# instruction_string = "3, 4, 1, 5"
-instruction_string = "206,63,255,131,65,80,238,157,254,24,133,2,16,0,1,3"
+instruction_string = "secret"
 
 def create_instruction_list(instructions):
   instructions = instructions.split(",")
