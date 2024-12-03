@@ -13,7 +13,7 @@ A collection of my solutions to the Advent of Code puzzles.
 <td>2019</td>
 </tr>
 <tr>
-<th>Stars</th><td>39</td><td>31</td><td>11</td><td></td><td></td>
+<th>Stars</th><td>39</td><td>31</td><td>35</td><td></td><td></td>
 </tr>
 <tr>
 <th>Years</th>
@@ -24,7 +24,7 @@ A collection of my solutions to the Advent of Code puzzles.
 <td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2024">2024</a></td>
 </tr>
 <tr>
-<th>Stars</th><td>13</td><td>26</td><td>20</td><td>30</td><td>6</td>
+<th>Stars</th><td>13</td><td>26</td><td>21</td><td>30</td><td>6</td>
 </tr>
 </table>
 
@@ -83,7 +83,7 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-### [Advent of Code 2023](https://github.com/enigm4tik/advent-of-code/tree/main/2023) (28 ⭐)
+### [Advent of Code 2023](https://github.com/enigm4tik/advent-of-code/tree/main/2023) (30 ⭐)
 
 <table>
 <tr>
@@ -136,7 +136,7 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-### [Advent of Code 2022](https://github.com/enigm4tik/advent-of-code/tree/main/2022) (20 ⭐)
+### [Advent of Code 2022](https://github.com/enigm4tik/advent-of-code/tree/main/2022) (21 ⭐)
 
 <table>
     <tr>
@@ -268,7 +268,7 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-### [Advent of Code 2017](https://github.com/enigm4tik/advent-of-code/tree/main/2017) (10 ⭐)
+### [Advent of Code 2017](https://github.com/enigm4tik/advent-of-code/tree/main/2017) (35 ⭐)
 
 <table>
     <tr>
@@ -321,7 +321,7 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016) (30 ⭐)
+### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016) (31 ⭐)
 
 <table>
     <tr>
