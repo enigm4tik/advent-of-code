@@ -294,7 +294,8 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day11.py">11</a></th>
-        <th>12</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.py">1</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.cpp">2</a>*</th>
         <th>13</th>
         <th>14</th>
         <th>15</th>
@@ -320,6 +321,7 @@ A collection of my solutions to the Advent of Code puzzles.
         <th></th>
     </tr>
 </table>
+* Implementation in C++
 
 ### [Advent of Code 2016](https://github.com/enigm4tik/advent-of-code/tree/main/2016) (31 ⭐)
 
@@ -392,7 +394,7 @@ A collection of my solutions to the Advent of Code puzzles.
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day14.py">14</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.py">1</a> 
-        <a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.cpp">5</a></th>
+        <a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day15.cpp">5</a>*</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day16.py">16</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day17.py">17</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2015/day18.py">18</a></th>
@@ -410,4 +412,4 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
 </table>
 
-*Only part 1 solved.
+*Implementation in C++

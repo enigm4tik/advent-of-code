@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <th><a href="https://adventofcode.com/2017/day/11">11</a></th>
-        <th>12</th>
+        <th><a href="https://adventofcode.com/2017/day/12">12</a></th>
         <th>13</th>
         <th>14</th>
         <th>15</th>
@@ -66,3 +66,5 @@ Day | Name | Info | Notes
 [09](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day09.py)  | Stream Processing | String manipulation | Very fun
 [10](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day10.py)  | Knot Hash | Hashing Algorithm | Fun exercise
 [11](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day11.py)  | Hex Ed | This is probably a graph | I did not handle it as a graph (I think)
+[12](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.py)  | Digital Plumber | I'm starting to GET graphs | Python Implementation
+[12](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.cpp)  | Digital Plumber | Fun challenge for my parser | C++ Implementation
