@@ -9,6 +9,7 @@
 #include <sstream>
 #include <algorithm>
 #include <unordered_map>
+#include <bitset>
 
 std::vector<std::string> getLines(std::string filename);
 

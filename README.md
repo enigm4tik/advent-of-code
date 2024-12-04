@@ -101,7 +101,7 @@ A collection of my solutions to the Advent of Code puzzles.
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day04.py">04</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day05.py">05</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.py">0</a> <a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.cpp">6</a></th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.py">0</a><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day06.cpp">6</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day07.py">07</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day08.py">08</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2023/day09.py">09</a></th>
@@ -294,11 +294,10 @@ A collection of my solutions to the Advent of Code puzzles.
     </tr>
     <tr>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day11.py">11</a></th>
-        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.py">1</a>
-        <a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.cpp">2</a>*</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.py">1</a><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.cpp">2</a>*</th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day13.cpp">13</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day14.py">14</a></th>
-        <th>15</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day15.cpp">15</a></th>
         <th>16</th>
         <th>17</th>
     </tr>

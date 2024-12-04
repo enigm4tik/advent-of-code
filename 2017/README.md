@@ -27,7 +27,7 @@
         <th><a href="https://adventofcode.com/2017/day/12">12</a></th>
         <th><a href="https://adventofcode.com/2017/day/13">13</a></th>
         <th><a href="https://adventofcode.com/2017/day/14">14</a></th>
-        <th>15</th>
+        <th><a href="https://adventofcode.com/2017/day/15">15</a></th>
         <th>16</th>
         <th>17</th>
     </tr>
@@ -70,3 +70,4 @@ Day | Name | Info | Notes
 [12](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.cpp)  | Digital Plumber | Fun challenge for my parser | C++ Implementation
 [13](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day13.cpp)  | Packet Scanners | Actually just a math problem | Forgot to multiply the results ...
 [14](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day14.py)  | Disk Defragmentation | I am understanding graphs!! | Reused knot hashes from day 10!
+[15](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day15.py)  | Dueling Generators | Bitwise AND and masks | I finally get bitwise operations and how to use them
