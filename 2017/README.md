@@ -26,7 +26,7 @@
         <th><a href="https://adventofcode.com/2017/day/11">11</a></th>
         <th><a href="https://adventofcode.com/2017/day/12">12</a></th>
         <th><a href="https://adventofcode.com/2017/day/13">13</a></th>
-        <th>14</th>
+        <th><a href="https://adventofcode.com/2017/day/14">14</a></th>
         <th>15</th>
         <th>16</th>
         <th>17</th>
@@ -68,4 +68,5 @@ Day | Name | Info | Notes
 [11](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day11.py)  | Hex Ed | This is probably a graph | I did not handle it as a graph (I think)
 [12](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.py)  | Digital Plumber | I'm starting to GET graphs | Python Implementation
 [12](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.cpp)  | Digital Plumber | Fun challenge for my parser | C++ Implementation
-[13](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day12.cpp)  | Packet Scanners | Actually just a math problem | Forgot to multiply the results ...
+[13](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day13.cpp)  | Packet Scanners | Actually just a math problem | Forgot to multiply the results ...
+[14](https://github.com/enigm4tik/advent-of-code/blob/main/2017/day14.py)  | Disk Defragmentation | I am understanding graphs!! | Reused knot hashes from day 10!
