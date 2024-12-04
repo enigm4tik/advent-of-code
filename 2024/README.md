@@ -16,7 +16,7 @@
     <tr>
         <th><a href="https://adventofcode.com/2024/day/2">02</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/3">03</a></th>
-	<th>04</th>
+	    <th><a href="https://adventofcode.com/2024/day/4">04</a></th>
 	<th>05</th>
 	<th>06</th>
 	<th>07</th>
@@ -59,3 +59,4 @@ Solution | Name | Info | Notes
 [Day 01](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day01.cpp) | Historian Hysteria | String Manipulation and Parsing | < algorithm > is your friend
 [Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day02.cpp) | Red-Nosed Reports | Iterating over Vectors | make sure ends are correctly defined
 [Day 03](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day03.cpp) | Mull It Over | My Parser is growing | substr(pos, length) NOT substr(begin, end)
+[Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day04.cpp) | Ceres Search | For Loops everywhere | I'm sure there was a better way
