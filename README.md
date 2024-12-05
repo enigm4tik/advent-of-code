@@ -298,7 +298,7 @@ A collection of my solutions to the Advent of Code puzzles.
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day13.cpp">13</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day14.py">14</a></th>
         <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day15.cpp">15</a></th>
-        <th>16</th>
+        <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2017/day16.cpp">16</a></th>
         <th>17</th>
     </tr>
     <tr>
