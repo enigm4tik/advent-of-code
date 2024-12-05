@@ -9,6 +9,7 @@
 #include <sstream>
 #include <algorithm>
 #include <unordered_map>
+#include <bitset>
 
 std::vector<std::string> getLines(std::string filename);
 
@@ -19,6 +20,8 @@ std::vector<std::string> splitLineToString(std::string& line, std::string delimi
 std::vector<std::vector<std::string>> splitToString(std::vector<std::string>& puzzleinput, std::string delimiter);
 
 std::vector<int> findSubstringPositions(std::string& line, std::string substring);
+
+void printVector(std::vector<int>);
 
 void preResults(int, int); // ASCII Snow + Header
 void afterResults(); // ASCII Snow

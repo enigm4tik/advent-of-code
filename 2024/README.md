@@ -17,7 +17,7 @@
         <th><a href="https://adventofcode.com/2024/day/2">02</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/3">03</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/4">04</a></th>
-	<th>05</th>
+	    <th><a href="https://adventofcode.com/2024/day/5">05</a></th>
 	<th>06</th>
 	<th>07</th>
 	<th>08</th>
@@ -60,3 +60,4 @@ Solution | Name | Info | Notes
 [Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day02.cpp) | Red-Nosed Reports | Iterating over Vectors | make sure ends are correctly defined
 [Day 03](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day03.cpp) | Mull It Over | My Parser is growing | substr(pos, length) NOT substr(begin, end)
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day04.cpp) | Ceres Search | For Loops everywhere | I'm sure there was a better way
+[Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day05.cpp) | Print Queue | BFS I did it! | Make sure to use Release instead of Debug! 

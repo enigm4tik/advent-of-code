@@ -62,132 +62,33 @@ void createManualUpdates(std::vector<std::string> &pageStrings, std::vector<std:
 		manualUpdates.push_back(splitLineToInt(page, ','));
 }
 
-void printVector(std::vector<int> myVector)
-{
-	for (int x : myVector)
-		std::cout << x << ", ";
-	std::cout << std::endl;
-}
-
 void filterRules(std::unordered_map<int, std::vector<int>>& rules, std::vector<int> &filteredRules, std::vector<int> &update, int page)
 {
 	std::copy_if(rules[page].begin(), rules[page].end(), std::back_inserter(filteredRules), [update](int i) {auto found = std::find(update.begin(), update.end(), i); return found != update.end(); });
 }
 
-void fixPages(std::vector<int>& update, std::unordered_map<int, std::vector<int>>& rules, int start = 0)
-{
-	for (int i = start; i < update.size(); i++)
-	{
-		int page = update[i];
-		std::cout << "Current Page: " << page << std::endl;
-		if (rules.find(page) != rules.end()) // there is a rule for this page
-		{
-			std::cout << "Current Page: " << page << std::endl;
-			auto pagePosition = std::find(update.begin(), update.end(), page);
-			std::vector<int> filteredRules;;
-			filterRules(rules, filteredRules, update, page);
-			for (int page2 : filteredRules)
-			{
-				auto currentPos = std::find(update.begin(), update.end(), page2);
-				if (currentPos != update.end() && currentPos < pagePosition)
-				{
-					std::iter_swap(pagePosition, currentPos);
-					fixPages(update, rules, start);
-				}
-			}
-		}
-	}
-}
-
-void sort(std::vector<int> update, std::unordered_map<int, std::vector<int>> rules)
-{
-	/*const std::vector<int> v1{ 1, 2, 5, 5, 5, 9 };
-	const std::vector<int> v2{ 2, 5, 7 };
-	std::vector<int> diff;
-
-	std::set_difference(v1.begin(), v1.end(), v2.begin(), v2.end(), std::inserter(diff, diff.begin()));*/
-
-	int pos = 0;
-	int size = update.size();
-	std::vector<int> rule;
-	std::vector<int> pushedToBack;
-	for (int i = 0; i < size; i++)
-	{
-		int page = update[i];
-		std::cout << "Current Page: " << page << std::endl;
-		if (rules.find(page) == rules.end())
-		{ // no page exists
-			std::vector<int> slice = std::vector<int>(update.begin() + 1, update.end());
-			if (pushedToBack.size() == slice.size());
-			break;
-
-			pushedToBack.push_back(page);
-			update.push_back(page);
-			update.erase(update.begin() + i);
-			printVector(update);
-			i -= 1;
-			continue;
-		}
-		rule = rules[page];
-		//std::cout << "Page: " << page << std::endl;
-		for (int j = pos + 1; j < size - i; j++)
-		{
-			if (i + j >= size)
-				break;
-			int nextPage = update[i + j];
-			std::cout << "Next page: " << nextPage << std::endl;
-			if (std::find(rule.begin(), rule.end(), nextPage) == rule.end())
-			{
-				//std::cout << page << " Before: \n";
-					//printVector(update);
-				update.insert(update.begin(), nextPage);
-				//printVector(update);
-				update.erase(update.begin() + j + 1);
-				//std::cout << "After: \n";
-				printVector(update);
-				//std::cout << "_____ \n";
-				i -= 1;
-				break;
-			}
-			else
-				std::cout << "found" << std::endl;
-		}
-	}
-	printVector(update);
-}
-
-
 bool dfs(std::vector<int> &update, std::unordered_map<int, std::vector<int>> &rules, int node, int& result, std::vector<int> visited = {})
 {
-	if (result != 0)
-	{
-		return true;
-	}
-	if (std::find(update.begin(), update.end(), node) != update.end())
-	{
-		visited.push_back(node);
-	}
+	visited.push_back(node);
 	
-	std::vector<int> adjacencyList = rules[node];
+	std::vector<int>adjacencyList;
+	filterRules(rules, adjacencyList, update, node);
 
 	for (int rule: adjacencyList)
 	{
-		if (std::find(update.begin(), update.end(), rule) != update.end())
+		if (std::find(visited.begin(), visited.end(), rule) == visited.end())
 		{
-			if (std::find(visited.begin(), visited.end(), rule) == visited.end())
-			{
-				if (dfs(update, rules, rule, result, visited))
-					return true;
-			}
+			if (dfs(update, rules, rule, result, visited))
+				return true;
 		}
 	}
 	if (visited.size() == update.size())
 	{
 		result = getMiddleValue(visited);
+		return true;
 	}
 	return false;
 }
-
 
 int main()
 {
@@ -202,25 +103,26 @@ int main()
 
 	int middlePageSum = 0;
 	int middleFixedSum = 0;
-	int i = 0;
 	for (auto update : manualUpdates)
 	{
-		std::cout << i++ << std::endl;
 		if (checkPageOrder(update, rules))
 			middlePageSum += getMiddleValue(update);
 		else
 		{
-			//printVector(update);
 			int result = 0;
 			for (auto page : update)
 			{
-				dfs(update, rules, page, result);
+				if (result == 0)
+					dfs(update, rules, page, result);	
 			}
 			middleFixedSum += result;
 		}
 	}
+
+	preResults(5, 2024);
 	std::cout << "Part 1: " << middlePageSum << std::endl;
 	std::cout << "Part 2: " << middleFixedSum << std::endl;
+	afterResults();
 
 	return 0;
 }
