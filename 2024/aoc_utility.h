@@ -23,5 +23,5 @@ std::vector<int> findSubstringPositions(std::string& line, std::string substring
 
 void printVector(std::vector<int>);
 
-void preResults(int, int); // ASCII Snow + Header
+void preResults(int day, int year); // ASCII Snow + Header
 void afterResults(); // ASCII Snow
