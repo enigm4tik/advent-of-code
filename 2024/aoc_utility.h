@@ -21,7 +21,7 @@ std::vector<std::vector<std::string>> splitToString(std::vector<std::string>& pu
 
 std::vector<int> findSubstringPositions(std::string& line, std::string substring);
 
-void printVector(std::vector<int>);
+void printVector(std::vector<int> &myVector);
 
 void preResults(int day, int year); // ASCII Snow + Header
 void afterResults(); // ASCII Snow
