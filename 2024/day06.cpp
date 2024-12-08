@@ -6,51 +6,6 @@
 
 int FoundLoops = 0;
 
-struct Coord
-{
-	Coord(int i, int j)
-	{
-		this->x = i;
-		this->y = j;
-	}
-
-	void printCoord()
-	{
-		std::cout << "(" << x << ", " << y << ")";
-	}
-
-	Coord operator +(Coord& other) const
-	{
-		return Coord(this->x + other.x, this->y + other.y);
-	}
-
-	bool operator < (const Coord& other)
-	{
-		return this->x < other.x || (!(other.x < this->x) && this->y < other.y);
-	}
-
-	bool operator ==(const Coord& other)
-	{
-		return this->x == other.x && this->y == other.y;
-	}
-
-	int x = 0;
-	int y = 0;
-};
-
-bool operator <(const Coord& one, const Coord& other)
-{
-	return one.x < other.x || (!(other.x < one.x) && one.y < other.y);
-}
-
-void addToVector(Coord& item, std::vector<Coord> &coordVector)
-{
-	if (std::find(coordVector.begin(), coordVector.end(), item) == coordVector.end())
-	{
-		coordVector.push_back(item);
-	}
-}
-
 struct labMap
 {
 	void findObstacleInDirection(Coord& guard, Coord& direction, int dir, std::vector<int>& SIZES)

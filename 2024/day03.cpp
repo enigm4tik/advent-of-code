@@ -64,7 +64,7 @@ int part2(std::string lines)
 	return part2Sum;
 }
 
-int main3()
+int main()
 {
 	std::vector<std::string> lines = getLines("puzzle.txt");
 	

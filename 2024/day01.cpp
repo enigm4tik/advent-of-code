@@ -37,7 +37,7 @@ static void part2(std::vector<int> &firstList, std::vector<int> &secondList)
 	std::cout << "Part 2: " << similarity << std::endl;
 }
 
-int main1()
+int main()
 {
 	std::vector<std::string> lines = getLines("puzzle.txt");
 	std::vector<int> firstList;

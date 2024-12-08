@@ -34,25 +34,6 @@ void calculateResult(std::vector<int>& operands, const std::string& operators, l
 	}
 }
 
-void createCombinations(int sampleCount, const std::string & options, std::string &combination, std::set<std::string> &operations) {
-	if (combination.size() == sampleCount) {
-		operations.insert(combination);
-	}
-	else {
-		combination.push_back(0);
-		for (char op : options) {
-			combination.back() = op;
-			createCombinations(sampleCount, options, combination, operations);
-		}
-		combination.pop_back();
-	}
-}
-
-void createCombinations(int sampleCount, const std::string & options, std::set<std::string>&operations) {
-	std::string stack;
-	createCombinations(sampleCount, options, stack, operations);
-}
-
 long long getCalibrationResult(std::vector<std::pair<long long, std::vector<int>>> &test, std::string operators)
 {
 	long long report = 0;

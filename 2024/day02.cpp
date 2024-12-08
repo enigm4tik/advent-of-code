@@ -157,9 +157,9 @@ void part2(std::vector<std::vector<int>> &reports)
 	std::cout << "Part 2: " << safeReports << std::endl;
 }
 
-int main2()
+int main()
 {
-	std::vector<std::string> lines = getLines("puzzle.txt");
+	std::vector<std::string> lines = getLines("input.txt");
 	std::vector <std::vector<int>> reports;
 
 	reports = splitToInt(lines, ' ');

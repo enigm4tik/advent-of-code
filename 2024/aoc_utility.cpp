@@ -102,3 +102,94 @@ void printVector(std::vector<int> &myVector)
         std::cout << x << ", ";
     std::cout << std::endl;
 }
+
+// Working with grids ////////////////////////////////////////////////////////////
+
+Coord::Coord(int i, int j)
+{
+    this->x = i;
+    this->y = j;
+}
+
+void Coord::printCoord()
+{
+    std::cout << "(" << x << ", " << y << ")";
+}
+
+Coord Coord::operator +(Coord& other) const
+{
+    return Coord(this->x + other.x, this->y + other.y);
+}
+
+Coord Coord::operator -(Coord& other) const
+{
+    return Coord(this->x - other.x, this->y - other.y);
+}
+
+bool Coord::operator < (const Coord& other)
+{
+    return this->x < other.x || (!(other.x < this->x) && this->y < other.y);
+}
+
+bool Coord::operator > (const Coord& other)
+{
+    return this->x > other.x || (!(other.x > this->x) && this->y > other.y);
+}
+
+bool Coord::operator ==(const Coord& other)
+{
+    return this->x == other.x && this->y == other.y;
+}
+
+bool operator <(const Coord& one, const Coord& other)
+{
+    return one.x < other.x || (!(other.x < one.x) && one.y < other.y);
+}
+
+void addToVector(Coord& item, std::vector<Coord>& coordVector)
+{
+    if (std::find(coordVector.begin(), coordVector.end(), item) == coordVector.end())
+    {
+        coordVector.push_back(item);
+    }
+}
+
+// Creating Combinations with replacement //////////////////////////////////////
+
+void createCombinations(int sampleCount, const std::string& options, std::string& combination, std::set<std::string>& operations) {
+    if (combination.size() == sampleCount) {
+        operations.insert(combination);
+    }
+    else {
+        combination.push_back(0);
+        for (char op : options) {
+            combination.back() = op;
+            createCombinations(sampleCount, options, combination, operations);
+        }
+        combination.pop_back();
+    }
+}
+
+void createCombinations(int sampleCount, const std::string& options, std::set<std::string>& operations) {
+    std::string stack;
+    createCombinations(sampleCount, options, stack, operations);
+}
+
+void createCombinations(int sampleCount, const std::vector<Coord>& options, std::vector<Coord>& combination, std::set<std::vector<Coord>>& operations) {
+    if (combination.size() == sampleCount) {
+        operations.insert(combination);
+    }
+    else {
+        combination.push_back(Coord(0, 0));
+        for (Coord op : options) {
+            combination.back() = op;
+            createCombinations(sampleCount, options, combination, operations);
+        }
+        combination.pop_back();
+    }
+}
+
+void createCombinations(int sampleCount, const std::vector<Coord> options, std::set<std::vector<Coord>>& operations) {
+    std::vector<Coord> stack;
+    createCombinations(sampleCount, options, stack, operations);
+}
