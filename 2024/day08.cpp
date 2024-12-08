@@ -61,12 +61,13 @@ void findAllAntiNodes(std::unordered_map<char, std::vector<Coord>>& frequencies,
 			results = createAntiNode(poss[0], poss[1], zero);
 			one = results[1];
 			Coord antinode = results[0];
-			uniqueAntinodes.insert(poss[0]);
-			while (isAntiNodeValid(antinode, sizeVector) && !findOne) // find all antinodes
+			if (!findOne)
+				uniqueAntinodes.insert(poss[0]);
+			while (isAntiNodeValid(antinode, sizeVector)) // find all antinodes
 			{
 				uniqueAntinodes.insert(antinode);
 				if (findOne)
-					continue;
+					break;
 				results = createAntiNode(antinode, one, zero);
 				one = results[1];
 				antinode = results[0];
