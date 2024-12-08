@@ -20,7 +20,7 @@
 	    <th><a href="https://adventofcode.com/2024/day/5">05</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/6">06</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/7">07</a></th>
-	<th>08</th>
+	    <th><a href="https://adventofcode.com/2024/day/8">08</a></th>
     </tr>
     <tr>
         <th>09</th>
@@ -63,3 +63,4 @@ Solution | Name | Info | Notes
 [Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day05.cpp) | Print Queue | BFS I did it! | Make sure to use Release instead of Debug! 
 [Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day06.cpp) | Guard Gallivant | I had to brute force it.. | I struggle with visual puzzles
 [Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day07.cpp) | Bridge Repair | Permutations vs. Combinations .... | [Combinations with Replacements Inspiration](https://stackoverflow.com/a/40960906/10041092)
+[Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day08.cpp) | Resonant Collinearity | Calculations | Reused Coord and the Combinations
