@@ -98,8 +98,13 @@ std::vector<int> findSubstringPositions(std::string& line, std::string substring
 
 void printVector(std::vector<int> &myVector)
 {
-    for (int x : myVector)
-        std::cout << x << ", ";
+    bool first = true;
+    for (int& x : myVector)
+    {
+        if (!first)
+            std::cout << ", ";
+        std::cout << x;
+    }
     std::cout << std::endl;
 }
 
