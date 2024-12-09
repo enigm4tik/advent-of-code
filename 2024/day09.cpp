@@ -52,7 +52,7 @@ void defragment(std::unordered_map<int, std::vector<int>>& fileSystem, std::vect
 	int free = freeSpace.front();
 	for (int i = fileSystem.size() - 1; i >= 0; i--)
 	{
-		for (int j = fileSystem[i].size()-1; j >= 0; j--)
+		for (int j = fileSystem[i].size() - 1; j >= 0; j--)
 		{
 			if (fileSystem[i][j] > free)
 			{
@@ -63,7 +63,6 @@ void defragment(std::unordered_map<int, std::vector<int>>& fileSystem, std::vect
 			else
 				break;
 		}
-		std::sort(fileSystem[i].begin(), fileSystem[i].end());
 	}
 }
 
@@ -99,34 +98,20 @@ void parseData(std::string& inputData, std::unordered_map<int, std::vector<int>>
 std::vector<int> moveChunk(std::vector<int> &freeSector, std::vector<int> &chunk)
 {
 	for (int k = 0; k < chunk.size(); k++)
-	{
 		chunk[k] = freeSector[k];
-	}
 	freeSector.erase(freeSector.begin(), freeSector.begin() + (chunk.size()));
 	return freeSector;
 }
 
 void defragmentChunks(std::unordered_map<int, std::vector<int>>& fileSystem, std::vector<std::vector<int>>& freeSpace, std::vector<int> &sortedPrograms)
 {
-	std::vector<int> free;
-	bool moved;
-	for (int sortedProgram: sortedPrograms)
-	{
-		moved = false;
+	for (int sortedProgram : sortedPrograms)
 		for (int j = 0; j < freeSpace.size(); j++)
-		{
-			if (freeSpace[j].size() >= fileSystem[sortedProgram].size() && !moved)
-			{
+			if (freeSpace[j].size() >= fileSystem[sortedProgram].size())
 				if (fileSystem[sortedProgram][0] > freeSpace[j][0])
-				{
 					freeSpace[j] = moveChunk(freeSpace[j], fileSystem[sortedProgram]);
-					moved = true;
-				}
 				else
 					break;
-			}
-		}
-	}
 }
 
 long long calculateCheckSum(std::unordered_map<int, std::vector<int>> &fileSystem)
@@ -150,7 +135,6 @@ std::vector<int> getSortedKeys(std::unordered_map<int, std::vector<int>> unorder
 
 int main()
 {
-	
 	std::vector<std::string> data = getLines("input.txt");
 	std::string inputData = data[0];
 	std::vector<int> freeSpace;
