@@ -18,7 +18,7 @@ std::vector<int> createSpan(int pos, int length)
 	return programPositions;
 }
 
-void parseDataPart1(std::string &inputData, std::unordered_map<int, std::vector<int>> &fileSystem, std::vector<int> &freeSpace)
+void parseData(std::string &inputData, std::unordered_map<int, std::vector<int>> &fileSystem, std::vector<int> &freeSpace)
 {
 	int programID = 0;
 	std::vector<int> temp;
@@ -68,7 +68,7 @@ void defragment(std::unordered_map<int, std::vector<int>>& fileSystem, std::vect
 	}
 }
 
-void parseDataPart2(std::string& inputData, std::unordered_map<int, std::vector<int>>& fileSystem, std::vector<std::vector<int>>& freeSpace)
+void parseData(std::string& inputData, std::unordered_map<int, std::vector<int>>& fileSystem, std::vector<std::vector<int>>& freeSpace)
 {
 	int programID = 0;
 	std::vector<int> temp;
@@ -108,7 +108,7 @@ std::vector<int> moveChunk(std::vector<int> &freeSector, std::vector<int> &chunk
 	return freeSector;
 }
 
-void defragmentChunks(std::unordered_map<int, std::vector<int>>& fileSystem, std::vector<std::vector<int>>& freeSpace, std::vector<int> sortedPrograms)
+void defragmentChunks(std::unordered_map<int, std::vector<int>>& fileSystem, std::vector<std::vector<int>>& freeSpace, std::vector<int> &sortedPrograms)
 {
 	std::vector<int> free;
 	bool moved;
@@ -162,7 +162,7 @@ int main()
 	std::vector<int> freeSpace;
 	std::unordered_map<int, std::vector<int>> fileSystem;
 
-	parseDataPart1(inputData, fileSystem, freeSpace);
+	parseData(inputData, fileSystem, freeSpace);
 	defragment(fileSystem, freeSpace);
 	
 	long long checkSumPart1 = calculateCheckSum(fileSystem);
@@ -172,7 +172,7 @@ int main()
 	std::vector<std::vector<int>> freeChunks;
 	std::unordered_map<int, std::vector<int>> fileSystemPart2;
 
-	parseDataPart2(inputData, fileSystemPart2, freeChunks);
+	parseData(inputData, fileSystemPart2, freeChunks);
 		
 	std::vector<int> sortedPrograms = getSortedKeys(fileSystemPart2);
 
