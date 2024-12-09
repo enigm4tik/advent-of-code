@@ -32,7 +32,6 @@ void parseData(std::string &inputData, std::unordered_map<int, std::vector<int>>
 			fileSystem[programID] = createSpan(free, length);
 			if (fileSystem[programID].size() > 0)
 				free = fileSystem[programID].back() + 1;
-
 			programID++;
 		}
 		else // every other is free
@@ -77,15 +76,14 @@ void parseData(std::string& inputData, std::unordered_map<int, std::vector<int>>
 	for (int i = 0; i < inputData.length(); i++)
 	{
 		length = charNumberToInt(inputData[i]);
-		if ((i % 2) == 0) // every other is a file
+		if ((i % 2) == 0)
 		{
 			fileSystem[programID] = createSpan(free, length);
 			if (fileSystem[programID].size() > 0)
 				free = fileSystem[programID].back() + 1;
-
 			programID++;
 		}
-		else // every other is free
+		else
 		{
 			temp = createSpan(free, length);
 			if (temp.size() > 0)
@@ -135,12 +133,8 @@ long long calculateCheckSum(std::unordered_map<int, std::vector<int>> &fileSyste
 {
 	long long checkSum = 0;
 	for (auto file : fileSystem)
-	{
 		for (int program : file.second)
-		{
 			checkSum += (file.first * program);
-		}
-	}
 	return checkSum;
 }
 
@@ -173,9 +167,7 @@ int main()
 	std::unordered_map<int, std::vector<int>> fileSystemPart2;
 
 	parseData(inputData, fileSystemPart2, freeChunks);
-		
 	std::vector<int> sortedPrograms = getSortedKeys(fileSystemPart2);
-
 	defragmentChunks(fileSystemPart2, freeChunks, sortedPrograms);
 
 	long long checkSumPart2 = calculateCheckSum(fileSystemPart2);
