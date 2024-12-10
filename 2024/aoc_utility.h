@@ -23,6 +23,8 @@ std::vector<int> findSubstringPositions(std::string& line, std::string substring
 
 void printVector(std::vector<int> &myVector);
 
+int charNumberToInt(char& character);
+
 void preResults(int day, int year); // ASCII Snow + Header
 void afterResults(); // ASCII Snow
 
@@ -30,6 +32,7 @@ void afterResults(); // ASCII Snow
 
 struct Coord
 {
+	Coord();
 	Coord(int i, int j);
 
 	void printCoord();
@@ -43,12 +46,25 @@ struct Coord
 	bool operator > (const Coord& other);
 
 	bool operator ==(const Coord& other);
+	bool operator ==(const Coord& other) const;
 
 	int x = 0;
 	int y = 0;
 };
 
+template <>
+struct std::hash<Coord>
+{
+	size_t operator()(const Coord& other) const
+	{
+		size_t xHash = std::hash<int>()(other.x);
+		size_t yHash = std::hash<int>()(other.y) << 1;
+		return xHash ^ yHash;
+	}
+};
+
 bool operator <(const Coord& one, const Coord& other);
+Coord operator +(const Coord& one, const Coord& other);
 void addToVector(Coord& item, std::vector<Coord>& coordVector);
 
 // Creating Combinations with replacement

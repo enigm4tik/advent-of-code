@@ -108,7 +108,19 @@ void printVector(std::vector<int> &myVector)
     std::cout << std::endl;
 }
 
+int charNumberToInt(char& character)
+{
+    int result = character - '0';
+    return result++;
+}
+
 // Working with grids ////////////////////////////////////////////////////////////
+
+Coord::Coord()
+{
+    this->x = 0;
+    this->y = 0;
+}
 
 Coord::Coord(int i, int j)
 {
@@ -146,14 +158,25 @@ bool Coord::operator ==(const Coord& other)
     return this->x == other.x && this->y == other.y;
 }
 
+bool Coord::operator ==(const Coord& other) const
+{
+    return this->x == other.x && this->y == other.y;
+}
+
 bool operator <(const Coord& one, const Coord& other)
 {
     return one.x < other.x || (!(other.x < one.x) && one.y < other.y);
 }
 
+Coord operator +(const Coord& one, const Coord& other)
+{
+    return Coord(one. x+ other.x, one.y+ other.y);
+}
+
 void addToVector(Coord& item, std::vector<Coord>& coordVector)
 {
     if (std::find(coordVector.begin(), coordVector.end(), item) == coordVector.end())
+ 
     {
         coordVector.push_back(item);
     }
