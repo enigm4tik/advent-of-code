@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <th><a href="https://adventofcode.com/2024/day/9">09</a></th>
-	<th>10</th>
+	    <th><a href="https://adventofcode.com/2024/day/10">10</a></th>
 	<th>11</th>
 	<th>12</th>
 	<th>13</th>
@@ -39,7 +39,7 @@
         <th>20</th>
         <th>21</th>
         <th>22</th>
-    </tr>
+    </tr>   
     <tr>
         <th>23</th>
         <th>24</th>
@@ -65,3 +65,4 @@ Solution | Name | Info | Notes
 [Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day07.cpp) | Bridge Repair | Permutations vs. Combinations .... | [Combinations with Replacements Inspiration](https://stackoverflow.com/a/40960906/10041092)
 [Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day08.cpp) | Resonant Collinearity | Calculations | Reused Coord and the Combinations
 [Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day09.cpp) | Disk Fragmenter | Puzzle was very fun! | Don't try to skip steps! You only have yourself to blame.
+[Day 10](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day10.cpp) | Hoof It | Graphs, graphs, graphs! I love 'em! | I figured this DFS out on my own!
