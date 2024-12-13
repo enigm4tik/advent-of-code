@@ -26,8 +26,8 @@
         <th><a href="https://adventofcode.com/2024/day/9">09</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/10">10</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/11">11</a></th>
-	<th>12</th>
-	<th>13</th>
+	    <th><a href="https://adventofcode.com/2024/day/12">12</a></th>
+	    <th><a href="https://adventofcode.com/2024/day/13">13</a></th>
 	<th>14</th>
 	<th>15</th>
     </tr>
@@ -67,3 +67,5 @@ Solution | Name | Info | Notes
 [Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day09.cpp) | Disk Fragmenter | Puzzle was very fun! | Don't try to skip steps! You only have yourself to blame.
 [Day 10](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day10.cpp) | Hoof It | Graphs, graphs, graphs! I love 'em! | I figured this DFS out on my own!
 [Day 11](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day11.cpp) | Plutonian Pebbles | This took way too long to figure out | Lantern Fish!!!!
+Day 12 | Garden Groups | Part1 was very easy | How do I get the sides?!
+[Day 13](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day13.cpp) | Claw Contraption | Linear Algebra | Make sure you parse the whole file
