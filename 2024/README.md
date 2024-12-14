@@ -67,6 +67,6 @@ Solution | Name | Info | Notes
 [Day 09](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day09.cpp) | Disk Fragmenter | Puzzle was very fun! | Don't try to skip steps! You only have yourself to blame.
 [Day 10](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day10.cpp) | Hoof It | Graphs, graphs, graphs! I love 'em! | I figured this DFS out on my own!
 [Day 11](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day11.cpp) | Plutonian Pebbles | This took way too long to figure out | Lantern Fish!!!!
-Day 12 | Garden Groups | Part1 was very easy | How do I get the sides?!
+[Day 12](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day12.cpp) | Garden Groups | Part1 was very easy | Part 2 came to me in a dream
 [Day 13](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day13.cpp) | Claw Contraption | Linear Algebra | Make sure you parse the whole file
 [Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day14.cpp) | Restroom Redoubt | Logical Puzzle | Make sure your width and height are not flipped
