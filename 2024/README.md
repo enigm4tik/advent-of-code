@@ -28,7 +28,7 @@
 	    <th><a href="https://adventofcode.com/2024/day/11">11</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/12">12</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/13">13</a></th>
-	<th>14</th>
+	<th><a href="https://adventofcode.com/2024/day/14">14</a></th>
 	<th>15</th>
     </tr>
     <tr>
@@ -69,3 +69,4 @@ Solution | Name | Info | Notes
 [Day 11](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day11.cpp) | Plutonian Pebbles | This took way too long to figure out | Lantern Fish!!!!
 Day 12 | Garden Groups | Part1 was very easy | How do I get the sides?!
 [Day 13](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day13.cpp) | Claw Contraption | Linear Algebra | Make sure you parse the whole file
+[Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day14.cpp) | Restroom Redoubt | Logical Puzzle | Make sure your width and height are not flipped
