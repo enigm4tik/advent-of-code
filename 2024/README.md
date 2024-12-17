@@ -29,7 +29,7 @@
 	    <th><a href="https://adventofcode.com/2024/day/12">12</a></th>
 	    <th><a href="https://adventofcode.com/2024/day/13">13</a></th>
 	<th><a href="https://adventofcode.com/2024/day/14">14</a></th>
-	<th>15</th>
+	<th><a href="https://adventofcode.com/2024/day/15">15</a></th>
     </tr>
     <tr>
 	<th>16</th>
@@ -70,3 +70,4 @@ Solution | Name | Info | Notes
 [Day 12](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day12.cpp) | Garden Groups | Part1 was very easy | Part 2 came to me in a dream
 [Day 13](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day13.cpp) | Claw Contraption | Linear Algebra | Make sure you parse the whole file
 [Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day14.cpp) | Restroom Redoubt | Logical Puzzle | Make sure your width and height are not flipped
+[Day 15](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day15.cpp) | Warehouse Woes | Part 2 was nifty | This took me days.. but it works! (Refactor at some point...maybe?)
