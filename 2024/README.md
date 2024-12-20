@@ -71,3 +71,5 @@ Solution | Name | Info | Notes
 [Day 13](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day13.cpp) | Claw Contraption | Linear Algebra | Make sure you parse the whole file
 [Day 14](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day14.cpp) | Restroom Redoubt | Logical Puzzle | Make sure your width and height are not flipped
 [Day 15](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day15.cpp) | Warehouse Woes | Part 2 was nifty | This took me days.. but it works! (Refactor at some point...maybe?)
+Day 16 | Reindeer Maze | Dijkstra, my friend | Part 2... is nifty
+[Day 17](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day17.cpp) | Chronospatial Computer | Part 1 was easy | This was interesting to solve...
