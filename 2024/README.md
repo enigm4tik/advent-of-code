@@ -33,8 +33,8 @@
     </tr>
     <tr>
 	<th>16</th>
-	<th>17</th>
-        <th>18</th>
+	<th><a href="https://adventofcode.com/2024/day/17">17</a></th>
+    <th><a href="https://adventofcode.com/2024/day/18">18</a></th>
         <th>19</th>
         <th>20</th>
         <th>21</th>
@@ -73,3 +73,4 @@ Solution | Name | Info | Notes
 [Day 15](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day15.cpp) | Warehouse Woes | Part 2 was nifty | This took me days.. but it works! (Refactor at some point...maybe?)
 Day 16 | Reindeer Maze | Dijkstra, my friend | Part 2... is nifty
 [Day 17](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day17.cpp) | Chronospatial Computer | Part 1 was easy | This was interesting to solve...
+[Day 18](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day18.cpp) | RAM Run | Dijkstra, let's go! | I could have used bisect to determine the value quicker ... oh well
