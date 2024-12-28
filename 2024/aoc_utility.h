@@ -11,6 +11,7 @@
 #include <unordered_map>
 #include <bitset>
 #include <cmath>
+#include <map>
 
 std::vector<std::string> getLines(std::string filename);
 
@@ -67,6 +68,7 @@ struct std::hash<Coord>
 bool operator <(const Coord& one, const Coord& other);
 Coord operator +(const Coord& one, const Coord& other);
 void addToVector(Coord& item, std::vector<Coord>& coordVector);
+int getDistance(Coord& item, Coord& other);
 
 // Creating Combinations with replacement
 

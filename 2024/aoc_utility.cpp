@@ -98,12 +98,11 @@ std::vector<int> findSubstringPositions(std::string& line, std::string substring
 
 void printVector(std::vector<int> &myVector)
 {
-    bool first = true;
-    for (int& x : myVector)
+    for (int i = 0; i < myVector.size(); i++)
     {
-        if (!first)
+        if (i != 0)
             std::cout << ", ";
-        std::cout << x;
+        std::cout << myVector[i];
     }
     std::cout << std::endl;
 }
@@ -176,10 +175,14 @@ Coord operator +(const Coord& one, const Coord& other)
 void addToVector(Coord& item, std::vector<Coord>& coordVector)
 {
     if (std::find(coordVector.begin(), coordVector.end(), item) == coordVector.end())
- 
     {
         coordVector.push_back(item);
     }
+}
+
+int getDistance(Coord& item, Coord& other)
+{
+    return std::abs(item.x - other.x) + std::abs(item.y - other.y);
 }
 
 // Creating Combinations with replacement //////////////////////////////////////

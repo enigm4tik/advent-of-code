@@ -36,7 +36,7 @@
 	<th><a href="https://adventofcode.com/2024/day/17">17</a></th>
     <th><a href="https://adventofcode.com/2024/day/18">18</a></th>
         <th><a href="https://adventofcode.com/2024/day/19">19</a></th>
-        <th>20</th>
+        <th><a href="https://adventofcode.com/2024/day/20">20</a></th>
         <th>21</th>
         <th>22</th>
     </tr>   
@@ -75,3 +75,4 @@ Solution | Name | Info | Notes
 [Day 17](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day17.cpp) | Chronospatial Computer | Part 1 was easy | This was interesting to solve...
 [Day 18](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day18.cpp) | RAM Run | Dijkstra, let's go! | I could have used bisect to determine the value quicker ... oh well
 [Day 19](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day19.cpp) | Linen Layout | Memoization | This took a while but I figured it out!
+[Day 20](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day20.cpp) | Race Condition | Distances vs. Paths | I didn't struggle at all with this one
