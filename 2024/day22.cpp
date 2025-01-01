@@ -1,6 +1,6 @@
 /*
  * Advent of Code - 2024
- * Day 20
+ * Day 22
  */
 
 #include "aoc_utility.h"
