@@ -41,7 +41,7 @@
         <th><a href="https://adventofcode.com/2024/day/22">22</a></th>
     </tr>   
     <tr>
-        <th>23</th>
+        <th><a href="https://adventofcode.com/2024/day/23">23</a></th>
         <th>24</th>
         <th>25</th>
         <th></th>
@@ -77,4 +77,5 @@ Solution | Name | Info | Notes
 [Day 19](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day19.cpp) | Linen Layout | Memoization | This took a while but I figured it out!
 [Day 20](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day20.cpp) | Race Condition | Distances vs. Paths | I didn't struggle at all with this one
 Day 21 | Keypad Conundrum | Difficult to understand | 
-[Day 22](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day20.cpp) | Monkey Market | The setup is half the game | Maps/Unordered maps vs. vectors 
+[Day 22](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day22.cpp) | Monkey Market | The setup is half the game | Maps/Unordered maps vs. vectors 
+[Day 23](https://github.com/enigm4tik/advent-of-code/blob/main/2024/day23.cpp) | LAN Party | I wish set operations were less verbose in cpp
