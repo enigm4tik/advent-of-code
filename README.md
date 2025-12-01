@@ -26,9 +26,46 @@ A collection of my solutions to the Advent of Code puzzles.
 <tr>
 <th>Stars</th><td>13</td><td>26</td><td>21</td><td>30</td><td>45</td>
 </tr>
+<tr>
+<th>Years</th>
+<td><a href="https://github.com/enigm4tik/advent-of-code/tree/main/2025">2025</a></td>
+<td><a href=""></a></td>
+<td><a href=""></a></td>
+<td><a href=""></a></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<th>Stars</th><td>2</td><td></td><td></td><td></td><td></td>
+</tr>
 </table>
 
 ## Calendar View
+
+### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (2 ⭐)
+
+<table>
+<tr>
+        <th colspan="7">December</th>
+    </tr>
+    <tr>
+    <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2025/day01.py">01</a></th>
+    <th>02</th>
+	<th>03</th>
+	<th>04</th>
+	<th>05</th>
+	<th>06</th>
+	<th>07</th>
+    </tr>
+    <tr>
+    <th>08</th>
+    <th>09</th>
+	<th>10</th>
+	<th>11</th>
+	<th>12</th>
+    <th></th>
+    <th></th>
+    </tr>
+</table>
 
 ### [Advent of Code 2024](https://github.com/enigm4tik/advent-of-code/tree/main/2024) (45 ⭐)
 
