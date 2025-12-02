@@ -2,35 +2,41 @@ with open('input', 'r') as file:
     lines = file.readlines()
     lines = lines[0].split(",")
 
+small_prime_numbers=[2,3,5,7,11,13]
+
 def part2(number):
+    """
+    Function to determine if number is made up of repeated sequences (at least twice)
+    :param number: integer
+    :return: 0 if not repeating
+    :return: number if repeating 
+    """
     numstr=str(number)
     length=len(numstr)
     if length==1: return 0
-    if length==9:
-        if (numstr[0:3]==numstr[3:6]) and (numstr[3:6]==numstr[6:9]):
-            return number
-    if length==6:
-        if (numstr[0:2]==numstr[2:4]) and (numstr[2:4]==numstr[4:6]):
-            return number
-    if length==10:
-        if (numstr[0:2]==numstr[2:4]) and (numstr[4:6]==numstr[6:8]) and (numstr[0:2]==numstr[8:10]) and (numstr[4:6]==numstr[0:2]):
-            return number
-    for index, letter in enumerate(numstr):
-        if index==length-1:
-            continue
-        if letter != numstr[index+1]:
-            return 0
-    return number
+    for prime in small_prime_numbers:
+        if length%prime == 0:
+            other=length//prime 
+            strings=[numstr[i:i+prime]for i in range(0,len(numstr),prime)]
+            sets=set(strings)
+            if len(sets)==1 and len(strings)!=1:
+                return number
+            strings=[numstr[i:i+other]for i in range(0,len(numstr),other)]
+            sets=set(strings)
+            if len(sets)==1 and len(strings)!=1:
+                return number
+    return 0
 
-def checkForDouble(number, part1=True):
+def checkForDouble(number):
+    """
+    Function to determine if number is made up of repeated sequence (exactly twice)
+    :param number: integer
+    :return: 0 if not repeating
+    :return: number if repeating 
+    """
     length = len(str(number))
     if (length%2) != 0:
-        if part1: return 0
-        else:
-            return part2(number)
-    if (length==6 or length==10) and part1==False: 
-        if part2(number)!=0:
-            return number
+        return 0
     numstr = str(number)
     halflength = len(str(number))//2
     a = numstr[:halflength]
@@ -41,11 +47,12 @@ def checkForDouble(number, part1=True):
 
 result=0
 result2=0
+
 for line in lines:
     start, end = line.split("-")
     for i in range(int(start),int(end)+1):
-          result+=checkForDouble(i, True)
-          result2+=checkForDouble(i, False)
+          result+=checkForDouble(i)
+          result2+=part2(i)
 
 print("Part 1: ", result)
 print("Part 2: ", result2)
