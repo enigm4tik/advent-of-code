@@ -1,6 +1,6 @@
 # [Advent of Code 2024](https://adventofcode.com/2024)
 
-### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (2 ⭐)
+### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (4 ⭐)
 
 <table>
 <tr>
@@ -8,7 +8,7 @@
     </tr>
     <tr>
     <th><a href="https://adventofcode.com/2025/day/1">01</a></th>
-    <th>02</th>
+    <th><a href="https://adventofcode.com/2025/day/2">02</a></th>
 	<th>03</th>
 	<th>04</th>
 	<th>05</th>
@@ -32,3 +32,4 @@ Calendar has links to the puzzles on adventofcode.com
 Solution | Name | Info | Notes
 :--- | :-- | :---  | :----
 [Day 01](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day01.py) | Secret Entrance | Basic Math | I got stuck way too long for day one
+[Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day02.py) | Gift Shop | String Comparison | I made it work but I wanna make it pretty...
