@@ -32,5 +32,5 @@ Calendar has links to the puzzles on adventofcode.com
 Solution | Name | Info | Notes
 :--- | :-- | :---  | :----
 [Day 01](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day01.py) | Secret Entrance | Basic Math | I got stuck way too long for day one
-[Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day02.py) | Gift Shop | String Comparison | I made it work but I wanna make it pretty...
+[Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day02.py) | Gift Shop | String Comparison | I made it work and I made it pretty!
 [Day 03](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day03.py) | Lobby | Find biggest number | Pretty quick and easy
