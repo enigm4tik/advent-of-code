@@ -1,4 +1,4 @@
-# [Advent of Code 2024](https://adventofcode.com/2024)
+# [Advent of Code 2025](https://adventofcode.com/2025)
 
 ### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (6 ⭐)
 
