@@ -51,4 +51,4 @@ def part2(list_of_strings):
 
 
 print("Part 1: ", part1(lines))
-print("Part 2: ",part2(lines))
+print("Part 2: ", part2(lines))
