@@ -35,13 +35,13 @@ A collection of my solutions to the Advent of Code puzzles.
 <td><a href=""></a></td>
 </tr>
 <tr>
-<th>Stars</th><td>6</td><td></td><td></td><td></td><td></td>
+<th>Stars</th><td>8</td><td></td><td></td><td></td><td></td>
 </tr>
 </table>
 
 ## Calendar View
 
-### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (6 ⭐)
+### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (8 ⭐)
 
 <table>
 <tr>
@@ -51,7 +51,7 @@ A collection of my solutions to the Advent of Code puzzles.
     <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2025/day01.py">01</a></th>
     <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2025/day02.py">02</a></th>
 	<th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2025/day03.py">03</a></th>
-	<th>04</th>
+	<th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2025/day04.py">04</a></th>
 	<th>05</th>
 	<th>06</th>
 	<th>07</th>
