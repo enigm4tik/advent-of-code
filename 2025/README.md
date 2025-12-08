@@ -1,6 +1,6 @@
 # [Advent of Code 2025](https://adventofcode.com/2025)
 
-### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (8 ⭐)
+### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (15 ⭐)
 
 <table>
 <tr>
@@ -35,4 +35,6 @@ Solution | Name | Info | Notes
 [Day 02](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day02.py) | Gift Shop | String Comparison | I made it work and I made it pretty!
 [Day 03](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day03.py) | Lobby | Find biggest number | Pretty quick and easy
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day04.py) | Printing Department | First grid of the year | Quick solution :D
+[Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day05.py) | Cafeteria | Programming with Sabi I | We used snacks to visualize our thought process
+[Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day06.py) | Trash Compactor | Programming with Sabi II | Math but make it complicated
 [Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day08.py) | Playground | 2 Classes and a lot of loops | I might have overcomplicated this
