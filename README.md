@@ -41,7 +41,7 @@ A collection of my solutions to the Advent of Code puzzles.
 
 ## Calendar View
 
-### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (8 ⭐)
+### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (15 ⭐)
 
 <table>
 <tr>
@@ -57,7 +57,7 @@ A collection of my solutions to the Advent of Code puzzles.
 	<th>07</th>
     </tr>
     <tr>
-    <th>08</th>
+    <th><a href="https://github.com/enigm4tik/advent-of-code/blob/main/2025/day08.py">08</a></th>
     <th>09</th>
 	<th>10</th>
 	<th>11</th>
