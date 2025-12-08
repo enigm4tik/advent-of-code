@@ -1,6 +1,6 @@
 # [Advent of Code 2025](https://adventofcode.com/2025)
 
-### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (15 ⭐)
+### [Advent of Code 2025](https://github.com/enigm4tik/advent-of-code/tree/main/2025) (16 ⭐)
 
 <table>
 <tr>
@@ -13,7 +13,7 @@
 	<th><a href="https://adventofcode.com/2025/day/4">04</a></th>
 	<th><a href="https://adventofcode.com/2025/day/5">05</a></th>
 	<th><a href="https://adventofcode.com/2025/day/6">06</a></th>
-	<th>07</th>
+	<th><a href="https://adventofcode.com/2025/day/7">07</a></th>
     </tr>
     <tr>
     <th><a href="https://adventofcode.com/2025/day/8">08</a></th>
@@ -37,4 +37,5 @@ Solution | Name | Info | Notes
 [Day 04](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day04.py) | Printing Department | First grid of the year | Quick solution :D
 [Day 05](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day05.py) | Cafeteria | Programming with Sabi I | We used snacks to visualize our thought process
 [Day 06](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day06.py) | Trash Compactor | Programming with Sabi II | Math but make it complicated
+[Day 07](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day07.py) | Laboratories  | Confusing | Stop working with the elements if counts are asked!!
 [Day 08](https://github.com/enigm4tik/advent-of-code/blob/main/2025/day08.py) | Playground | 2 Classes and a lot of loops | I might have overcomplicated this
