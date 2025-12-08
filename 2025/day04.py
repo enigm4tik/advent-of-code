@@ -1,5 +1,5 @@
 # Advent of Code - 2025
-## Day 3
+## Day 4
 
 with open('input', 'r') as file:
     lines = file.readlines()

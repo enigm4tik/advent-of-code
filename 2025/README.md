@@ -11,8 +11,8 @@
     <th><a href="https://adventofcode.com/2025/day/2">02</a></th>
 	<th><a href="https://adventofcode.com/2025/day/3">03</a></th>
 	<th><a href="https://adventofcode.com/2025/day/4">04</a></th>
-	<th>05</th>
-	<th>06</th>
+	<th><a href="https://adventofcode.com/2025/day/5">05</a></th>
+	<th><a href="https://adventofcode.com/2025/day/6">06</a></th>
 	<th>07</th>
     </tr>
     <tr>
